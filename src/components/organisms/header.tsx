@@ -17,19 +17,11 @@ type HeaderProps = {
 class Header extends React.Component<HeaderProps, Record<string, never>> {
   render() {
     const buttons = this.props.buttons.map(function (button, index) {
-      if (index == 0) {
-        return (
-          <HeaderButton addClass="ml-auto" key={button.id} onClick={button.onClick}>
-            {button.label}
-          </HeaderButton>
-        );
-      } else {
-        return (
-          <HeaderButton addClass="ml-2" key={button.id} onClick={button.onClick}>
-            {button.label}
-          </HeaderButton>
-        );
-      }
+      return (
+        <HeaderButton addClass={index == 0 ? "ml-auto" : "ml-2"} key={button.id} onClick={button.onClick}>
+          {button.label}
+        </HeaderButton>
+      );
     });
     return (
       <div className={`flex items-center flex-shrink-0 h-16 px-8 border-b ${Colors.THEME_2.toString("border")}`}>
