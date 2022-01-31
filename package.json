@@ -1,7 +1,7 @@
 {
   "name": "rgst",
   "productName": "rgst",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Score tool for all rhythm gamer",
   "main": ".webpack/main",
   "scripts": {

@@ -1,9 +1,6 @@
 import cv2
-from cv2 import imshow, waitKey
 import numpy as np
 import glob
-from PIL import Image
-import pyocr
 import os
 
 TESSERACT_PATH = 'C:/Users/PC_User/AppData/Local/Programs/Tesseract-OCR'  # インストールしたTesseract-OCRのpath
