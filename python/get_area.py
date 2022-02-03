@@ -1,4 +1,5 @@
 import cv2
+from cv2 import destroyWindow
 import numpy as np
 
 def get_area(img, title, color = (0, 255, 0)):
@@ -53,17 +54,7 @@ def get_area(img, title, color = (0, 255, 0)):
     while(1):
         k = cv2.waitKey(1) & 0xFF
         if k == 13:
-            cv2.imshow("check", img[data["y"]: data["y"] + data["h"], data["x"]: data["x"] + data["w"]])
-            while(True):
-                l = cv2.waitKey(1) & 0xFF
-                if l == 13: #Enterキー
-                    cv2.destroyWindow("check")
-                    cv2.destroyWindow(title)
-                    return data
-                elif l == 8: #BackSpaceキー
-                    cv2.destroyWindow("check")
-                    break
-                elif l == 27 or (not is_visible(title)) or (not is_visible("check")): #Escapeキーかウィンドウ閉じる
-                    return -1
+            destroyWindow(title)
+            return data
         elif k == 27 or (not is_visible(title)): #Escapeキーかウィンドウ閉じる
             return -1

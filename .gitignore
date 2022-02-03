@@ -90,3 +90,7 @@ out/
 
 #pythonvenv
 python/venv
+.spec
+python/build
+python/dist
+__pycache__

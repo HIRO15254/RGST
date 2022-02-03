@@ -1,8 +1,8 @@
 import argparse
 import arcaea.arcaea_init
 
-def arcaea_init(imgpath, guidepath):
-    arcaea.arcaea_init.arcaea_init(imgpath, guidepath)
+def arcaea_init(imgpath, guidepath, settingpath):
+    arcaea.arcaea_init.arcaea_init(imgpath, guidepath, settingpath)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

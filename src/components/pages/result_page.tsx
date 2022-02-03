@@ -35,7 +35,7 @@ class ResultPage extends React.Component<ResultPageProps, Record<string, never>>
   }
 
   uploadResult = async function () {
-    const file = await api.sendOpenFile();
+    await api.sendArcaeaResult();
   };
 }
 
