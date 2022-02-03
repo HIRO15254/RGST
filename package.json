@@ -1,7 +1,7 @@
 {
   "name": "rgst",
   "productName": "rgst",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Score tool for all rhythm gamer",
   "main": ".webpack/main",
   "scripts": {
@@ -22,12 +22,14 @@
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
     "@electron-forge/plugin-webpack": "^6.0.0-beta.63",
     "@electron-forge/publisher-github": "^6.0.0-beta.63",
+    "@types/copy-webpack-plugin": "^10.1.0",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "@vercel/webpack-asset-relocator-loader": "^1.7.0",
     "autoprefixer": "^10.4.2",
+    "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.5.1",
     "electron": "16.0.8",
     "electron-forge": "^5.2.4",

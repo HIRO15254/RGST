@@ -1,5 +1,5 @@
 export interface IElectronAPI {
-  sendOpenFile: () => Promise<void>;
+  sendArcaeaResult: () => Promise<void>;
 }
 
 declare global {
