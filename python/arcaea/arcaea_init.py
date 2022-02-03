@@ -1,6 +1,6 @@
 import get_area
 import cv2
-import json
+import json_funks
 
 COLORS = [(239, 108, 58), (58, 239, 117), (58, 58, 239), (58, 58, 239), (58, 58, 239), (239, 58, 128)]
 WIN_TITLES = ["Step 1: Select jacket area",
@@ -24,9 +24,7 @@ def arcaea_init(imgpath, guidepath, settingpath):
             break
         cv2.rectangle(img, (area[i]["x"], area[i]["y"]), (area[i]["x"] + area[i]["w"], area[i]["y"] + area[i]["h"]), COLORS[i], 4)
     else:
-        data = dict()
-        with open(settingpath, mode='rt', encoding='utf-8') as file:
-            data = json.load(file)
+        data = json_funks.get_json(settingpath)
         data["arcaea"] = {
             "jacket": area[0],
             "score": area[1],
@@ -36,8 +34,6 @@ def arcaea_init(imgpath, guidepath, settingpath):
             "level": area[5],
             "initialized": "true"
         }
-        print(json.dumps(data, indent=2))
-        with open(settingpath, mode='wt', encoding='utf-8') as file:
-            json.dump(data, file, ensure_ascii=False, indent=2)
+        json_funks.set_json(settingpath, data)
 
     cv2.destroyAllWindows()

@@ -1,0 +1,73 @@
+{
+  "max_id": 3,
+  "last_update": 20220204,
+  "Lumia": {
+    "title": "Lumia",
+    "eng_title": "Lumia",
+    "pack": "Eternal Core",
+    "composer": "sky_delta",
+    "level": {
+      "past": "2",
+      "present": "5",
+      "future": "8",
+      "beyond": "9"
+    },
+    "notes": {
+      "past": 469,
+      "present": 438,
+      "future": 961,
+      "beyond": 814
+    },
+    "const": {
+      "past": 2.5,
+      "present": 5.5,
+      "future": 8.4,
+      "beyond": 9.5
+    },
+    "id": 1
+  },
+  "Dot to Dot feat. shully": {
+    "title": "Dot to Dot feat. shully",
+    "eng_title": "Dot to Dot feat. shully",
+    "pack": "Memory Archive",
+    "composer": "Mameyudoufu",
+    "level": {
+      "past": "3",
+      "present": "6",
+      "future": "8"
+    },
+    "notes": {
+      "past": 453,
+      "present": 522,
+      "future": 739
+    },
+    "const": {
+      "past": 3.0,
+      "present": 6.0,
+      "future": 8.3
+    },
+    "id": 2
+  },
+  "γuarδina": {
+    "title": "γuarδina",
+    "eng_title": "γuarδina",
+    "pack": "Memory Archive",
+    "composer": "Aoi",
+    "level": {
+      "past": "4",
+      "present": "7",
+      "future": "10"
+    },
+    "notes": {
+      "past": 507,
+      "present": 678,
+      "future": 1120
+    },
+    "const": {
+      "past": 4.0,
+      "present": 7.5,
+      "future": 10.5
+    },
+    "id": 3
+  }
+}

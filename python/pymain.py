@@ -1,8 +1,14 @@
 import argparse
+
+from numpy import save
 import arcaea.arcaea_init
+import arcaea.arcaea_update
 
 def arcaea_init(imgpath, guidepath, settingpath):
     arcaea.arcaea_init.arcaea_init(imgpath, guidepath, settingpath)
+
+def arcaea_update(datapath, savepath):
+    arcaea.arcaea_update.ArcaeaUpdade(datapath, savepath)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
