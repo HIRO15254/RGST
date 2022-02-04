@@ -4,6 +4,7 @@ from os import path
 import web_funks as wf
 import json_funks
 import time
+import to_hist
 
 def ArcaeaUpdade(datapath, savepath):
     datas = json_funks.get_json(datapath)
@@ -71,11 +72,11 @@ def ArcaeaUpdade(datapath, savepath):
                     pass
             id = 0
             try:
-                id = datas[title]["id"]
+                id = datas["musics"][title]["id"]
             except:
                 id = datas["max_id"] + 1
                 datas["max_id"] += 1
-            datas[title] = {
+            datas["musics"][title] = {
                 'title': title,
                 'eng_title': eng_title[0] if eng_title else title,
                 'pack': rows['Pack'][0][0: -2] if rows['Pack'][0].find('*') != -1 else rows['Pack'][0],
@@ -86,9 +87,11 @@ def ArcaeaUpdade(datapath, savepath):
                 'id': id
             }
 
+            alp = "abcdefghijklmn"
             for i in range(len(jacket_urls)):
-                print(jacket_urls[i])
-                wf.download_file(jacket_urls[i], f"{savepath}/jacket_{id}{'_' + str(i) if i != 0 else ''}.data")
+                filepath = f"{savepath}/jacket{id}{alp[i]}.png"
+                wf.download_file(jacket_urls[i], filepath)
+                to_hist.toHist(filepath)
         except Exception:
             return None
 

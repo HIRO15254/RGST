@@ -26,12 +26,14 @@ def arcaea_init(imgpath, guidepath, settingpath):
     else:
         data = json_funks.get_json(settingpath)
         data["arcaea"] = {
-            "jacket": area[0],
-            "score": area[1],
-            "pure": area[2],
-            "far": area[3],
-            "lost": area[4],
-            "level": area[5],
+            "areas": {
+                "jacket": area[0],
+                "score": area[1],
+                "pure": area[2],
+                "far": area[3],
+                "lost": area[4],
+                "level": area[5]
+            },
             "initialized": "true"
         }
         json_funks.set_json(settingpath, data)
