@@ -16,7 +16,8 @@ module.exports = {
       patterns: [
         { from: 'python/dist/pymain.exe', to: './pymain.exe' },
         { from: 'rgstsettings.json', to: 'rgstsettings.json' },
-        { from: 'src/static/img', to: 'static/img' }
+        { from: 'src/static/img', to: 'static/img' },
+        { from: 'src/static/data', to: 'static/data' }
       ]
     })
   ],
