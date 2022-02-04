@@ -88,7 +88,7 @@ def ArcaeaUpdade(datapath, savepath):
 
             for i in range(len(jacket_urls)):
                 print(jacket_urls[i])
-                wf.download_file(jacket_urls[i], f"{savepath}/jacket_{id}{'_' + str(i) if i != 0 else ''}.png")
+                wf.download_file(jacket_urls[i], f"{savepath}/jacket_{id}{'_' + str(i) if i != 0 else ''}.data")
         except Exception:
             return None
 

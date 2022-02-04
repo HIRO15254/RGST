@@ -3,6 +3,7 @@ import { exec } from "child_process";
 import SearchDirectries from "../search_directories";
 
 export default async function ArcaeaUpdate() {
+  console.log("arcaea update is started");
   const jsonPath = SearchFiles("./", /arcaea_data.json$/)[0].dir;
   const pyexePath = SearchFiles("./", /pymain.exe$/)[0].dir;
   const jacketPath = SearchDirectries("./", /arcaea_jacket$/)[0].dir;
