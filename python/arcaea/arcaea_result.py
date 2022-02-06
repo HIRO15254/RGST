@@ -30,7 +30,7 @@ def analyse_arcaea_result(settings_path: str, data_path: str, jackets_path: str,
     jackets_hists: dict[str, dict] = dict()
     _jackets_hists_path = glob.glob(f"{jackets_path}/*")
     for jacket_hists_path in _jackets_hists_path:
-        jackets_hists[jacket_hists_path] = numpy.load(jacket_hists_path)
+        jackets_hists[jacket_hists_path] = numpy.load(jacket_hists_path, allow_pickle=True)
     # 判定用数字ファイルを読み込む
     num_imgs: list[list[numpy.ndarray]] = [[] for _ in range(10)]
     for i in range(10):
@@ -190,8 +190,8 @@ def analyse_arcaea_result(settings_path: str, data_path: str, jackets_path: str,
             str: 難易度を表す文字列
         """
         # 画像をHSVに変換、各難易度の色を検出して検出された範囲が一番広かった難易度を返す
-        LOWERS: Final[list[tuple[int]]] = [(89, 242, 179), (35, 132, 130), (143, 178, 67), (168, 178, 120)]
-        UPPERS: Final[list[tuple[int]]] = [(109, 262, 199), (55, 152, 150), (163, 198, 87), (180, 198, 140)]
+        LOWERS: Final[list[tuple[int]]] = [(89, 100, 0), (35, 100, 0), (143, 100, 0), (168, 100, 0)]
+        UPPERS: Final[list[tuple[int]]] = [(109, 255, 255), (55, 255, 255), (163, 255, 255), (180, 255, 255)]
         DIFF_NAMES: Final[list[int]] = ["past", "present", "future", "beyond"]
         hsv_img = cv2.cvtColor(trimmed_img, cv2.COLOR_BGR2HSV)
         val: list[int] = [0] * 4

@@ -34,7 +34,7 @@ def arcaea_updade(data_path: str, jackets_path: str):
         data_path (str): データを保存するjsonファイルのパス
         jacket_path (str): ジャケットデータを保存するフォルダのパス
     """
-    datas: dict = json_funks.get_json(data_path)
+    datas: dict = json_funks.get(data_path)
 
     def list_to_diffdict(list_: list[Any]) -> diffDict:
         """listをArcaeaの難易度と対応させたdictにして返す
@@ -153,7 +153,7 @@ def arcaea_updade(data_path: str, jackets_path: str):
             for i in range(len(jacket_urls)):
                 file_path = f"{jackets_path}/jacket{id}{alp[i]}.png"
                 web_funks.download_file(jacket_urls[i], file_path)
-                to_hist.toHist(file_path)
+                to_hist.replace_hist(file_path)
         except Exception:
             raise
 
@@ -164,4 +164,4 @@ def arcaea_updade(data_path: str, jackets_path: str):
         except Exception:
             pass
         time.sleep(0.4)
-    json_funks.set_json(data_path, datas)
+    json_funks.set(data_path, datas)
