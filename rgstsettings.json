@@ -38,6 +38,9 @@
         "h": 44
       }
     },
-    "initialized": "true"
+    "size": {
+      "width": 2160,
+      "height": 1080
+    }
   }
 }

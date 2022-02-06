@@ -1,14 +1,20 @@
 import * as fs from "fs";
 import * as path from "path";
 
-function SearchDirectries(dirPath: string, query: RegExp): Array<{ dir: string; name: string }> {
+function SearchDirectries(query: RegExp | string, dirPath?: string): Array<{ dir: string; name: string }> {
+  if (typeof query == "string") {
+    query = RegExp(query);
+  }
+  if (typeof dirPath == "undefined") {
+    dirPath = "./";
+  }
   const allDirents = fs.readdirSync(dirPath, { withFileTypes: true });
 
   const directries = [];
   for (const dirent of allDirents) {
     if (dirent.isDirectory()) {
       const fp = path.join(dirPath, dirent.name);
-      directries.push(SearchDirectries(fp, query));
+      directries.push(SearchDirectries(query, fp));
       if (query.test(fp)) {
         directries.push({
           dir: path.resolve(path.join(dirPath, dirent.name)),
