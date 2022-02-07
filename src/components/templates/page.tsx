@@ -23,7 +23,7 @@ class Page extends React.Component<PageProps, Record<string, never>> {
       },
     ];
     return (
-      <div className={`flex w-screen h-screen ${Colors.THEME_1.toString("bg")} ${Colors.TEXT_2.toString("text")}`}>
+      <div className={`flex w-screen h-screen ${Colors.THEME_2.toString("bg")} ${Colors.TEXT_2.toString("text")}`}>
         <Sidebar buttons={sidebarButtons} />
         <InnerSidebar buttons={this.props.InnerSidebarButtons} />
         <div className="flex flex-col flex-grow">

@@ -30,5 +30,5 @@ export default async function ArcaeaResult() {
     }
   }
 
-  AnalyseArcaeaResult(files.filePaths);
+  await AnalyseArcaeaResult(files.filePaths);
 }

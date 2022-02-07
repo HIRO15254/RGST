@@ -3,6 +3,7 @@ import SearchDirectries from "../search_directories";
 import { PYMAIN_PATH } from "../python";
 import { exec, execSync } from "child_process";
 import { SETTINGS_PATH } from "../settings";
+import { ArcaeaDataUpdate } from "./get_arcaea_data";
 
 const JACKET_DIRECTORY_PATH = SearchDirectries(/arcaea_jacket$/)[0].dir;
 const NUM_DIRECTRY_PATH = SearchDirectries(/arcaea_num$/)[0].dir;
@@ -20,7 +21,7 @@ export function ArcaeaInit(filepath: string) {
 
 export async function AnalyseArcaeaResult(filepath: string[]) {
   try {
-    exec(`${PYMAIN_PATH} analyse_arcaea_result -i ${SETTINGS_PATH} ${DATA_PATH} ${JACKET_DIRECTORY_PATH} ${NUM_DIRECTRY_PATH} ${RESULT_PATH} ${filepath.join(" ")}`);
+    execSync(`${PYMAIN_PATH} analyse_arcaea_result -i ${SETTINGS_PATH} ${DATA_PATH} ${JACKET_DIRECTORY_PATH} ${NUM_DIRECTRY_PATH} ${RESULT_PATH} ${filepath.join(" ")}`);
   } catch (err) {
     console.log(err.toString());
     console.log(`Arcaeaのリザルトを正常に読み込めませんでした。`);
@@ -34,4 +35,5 @@ export async function ArcaeaUpdate() {
   } catch (err) {
     console.log(err.toString());
   }
+  ArcaeaDataUpdate();
 }
