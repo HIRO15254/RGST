@@ -19,10 +19,10 @@ class Sidebar extends React.Component<SidebarProps, Record<string, never>> {
       return <SidebarButton key={button.id} onClick={button.onClick} path={button.path} />;
     });
     return (
-      <div className={`flex flex-col items-center w-16 pb-4 overflow-auto border-r ${Colors.THEME_2.toString("border")} ${Colors.THEME_1.toString("bg")}`}>
+      <aside className={`flex flex-col items-center w-16 pb-4 overflow-auto border-r h-screen sticky top-0 ${Colors.THEME_2.toString("border")} ${Colors.THEME_1.toString("bg")}`}>
         <Logo path="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z" />
         {buttons}
-      </div>
+      </aside>
     );
   }
 }
