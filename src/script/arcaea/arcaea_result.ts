@@ -27,6 +27,7 @@ export default async function ArcaeaResult() {
         message: "キャンセルしました",
         buttons: ["OK"],
       });
+      return;
     }
   }
 
