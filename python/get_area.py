@@ -29,7 +29,7 @@ def get_area(title: str, image: numpy.ndarray, color: tuple[int, int, int] = (0,
     """
     data: areaDict = {"x": 0, "y": 0, "w": 0, "h": 0}
 
-    def is_visible():
+    def is_visible(title):
         """この関数で作成したウィンドウがまだ表示されているか調べる
 
         Returns:
@@ -71,12 +71,10 @@ def get_area(title: str, image: numpy.ndarray, color: tuple[int, int, int] = (0,
         elif event == cv2.EVENT_LBUTTONUP:
             drawing = False
             update(x, y)
-            param = {  # noqa
-                "x": min(ix, x),
-                "y": min(iy, y),
-                "w": abs(ix - x),
-                "h": abs(iy - y)
-            }
+            param["x"] = min(ix, x)
+            param["y"] = min(iy, y)
+            param["w"] = abs(ix - x)
+            param["h"] = abs(iy - y)
 
     # 指定した画像とタイトルでウィンドウを作成しマウス操作を設定して半分のサイズにする
     cv2.namedWindow(title, cv2.WINDOW_NORMAL)
