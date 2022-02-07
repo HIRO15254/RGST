@@ -4,7 +4,7 @@ module.exports = {
   ],
   safelist: [
     {
-      pattern: /^(bg|text|border)-/,
+      pattern: /^(w|bg|text|border)-/,
       variants: ["hover", "dark", "dark:hover"]
     }
   ],

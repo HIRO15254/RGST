@@ -87,3 +87,11 @@ typings/
 
 # Electron-Forge
 out/
+
+#pythonvenv
+python/venv
+*.spec
+python/build/
+python/dist/
+__pycache__/
+.vscode/

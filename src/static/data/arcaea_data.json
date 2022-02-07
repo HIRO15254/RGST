@@ -1,0 +1,5628 @@
+{
+  "last_update": 20220204,
+  "musics": {
+    "Last Celebration": {
+      "title": "Last Celebration",
+      "eng_title": "Last Celebration",
+      "pack": "CHUNITHM Collaboration(Collaboration Chapter 2)",
+      "composer": "Laur vs CK",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "10"
+      },
+      "notes": {
+        "past": 969,
+        "present": 994,
+        "future": 1475
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 10.5
+      },
+      "id": 1
+    },
+    "Babaroque": {
+      "title": "Babaroque",
+      "eng_title": "Babaroque",
+      "pack": "Arcaea",
+      "composer": "cYsmix",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 402,
+        "present": 645,
+        "future": 808
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 8.5
+      },
+      "id": 2
+    },
+    "Turbocharger": {
+      "title": "Turbocharger",
+      "eng_title": "Turbocharger",
+      "pack": "World Extend",
+      "composer": "A/I",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 419,
+        "present": 659,
+        "future": 979
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.9
+      },
+      "id": 3
+    },
+    "Arcahv": {
+      "title": "Arcahv",
+      "eng_title": "Arcahv",
+      "pack": "Black Fate",
+      "composer": "Feryquitous",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 818,
+        "present": 884,
+        "future": 1065
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 9.9
+      },
+      "id": 4
+    },
+    "光速神授説 - Divine Light of Myriad -": {
+      "title": "光速神授説 - Divine Light of Myriad -",
+      "eng_title": "Divine Light of Myriad",
+      "pack": "Esoteric Order(Light of Salvation)",
+      "composer": "yoho",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 798,
+        "present": 835,
+        "future": 1021
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.8
+      },
+      "id": 5
+    },
+    "world.execute(me);": {
+      "title": "world.execute(me);",
+      "eng_title": "world.execute(me);",
+      "pack": "Arcaea",
+      "composer": "Mili",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 452,
+        "present": 582,
+        "future": 851
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.5,
+        "future": 8.5
+      },
+      "id": 6
+    },
+    "Heart Jackin'": {
+      "title": "Heart Jackin'",
+      "eng_title": "Heart Jackin'",
+      "pack": "Ephemeral Page(The Journey Onwards)",
+      "composer": "Yu_Asahina",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 506,
+        "present": 543,
+        "future": 1112
+      },
+      "const": {
+        "past": 3.0,
+        "present": 5.5,
+        "future": 9.7
+      },
+      "id": 7
+    },
+    "Dantalion": {
+      "title": "Dantalion",
+      "eng_title": "Dantalion",
+      "pack": "Black Fate",
+      "composer": "Team Grimoire",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 731,
+        "present": 843,
+        "future": 1476
+      },
+      "const": {
+        "past": 5.0,
+        "present": 8.2,
+        "future": 10.8
+      },
+      "id": 8
+    },
+    "Got hive of Ra": {
+      "title": "Got hive of Ra",
+      "eng_title": "Got hive of Ra",
+      "pack": "Groove Coaster Collaboration ",
+      "composer": "E.G.G.",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 322,
+        "present": 509,
+        "future": 794
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.8
+      },
+      "id": 9
+    },
+    "Journey": {
+      "title": "Journey",
+      "eng_title": "Journey",
+      "pack": "Lanota Collaboration",
+      "composer": "ARForest",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 551,
+        "present": 778,
+        "future": 997
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 8.6
+      },
+      "id": 10
+    },
+    "Filament": {
+      "title": "Filament",
+      "eng_title": "Filament",
+      "pack": "Memory Archive",
+      "composer": "Puru",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 582,
+        "present": 780,
+        "future": 991
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 9.7
+      },
+      "id": 11
+    },
+    "ω4": {
+      "title": "ω4",
+      "eng_title": "ω4",
+      "pack": "O.N.G.E.K.I. Collaboration",
+      "composer": "穴山大輔 VS 光吉猛修 VS Kai",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 816,
+        "present": 943,
+        "future": 1393
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 10.8
+      },
+      "id": 12
+    },
+    "Dazzle hop": {
+      "title": "Dazzle hop",
+      "eng_title": "Dazzle hop",
+      "pack": "O.N.G.E.K.I. Collaboration",
+      "composer": "Sampling Masters MEGA",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 561,
+        "present": 571,
+        "future": 1022
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 9.7
+      },
+      "id": 13
+    },
+    "Heavensdoor": {
+      "title": "Heavensdoor",
+      "eng_title": "Heavensdoor",
+      "pack": "Adverse Prelude",
+      "composer": "LeaF",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+",
+        "beyond": "10+"
+      },
+      "notes": {
+        "past": 766,
+        "present": 869,
+        "future": 1101,
+        "beyond": 1534
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 9.9,
+        "beyond": 10.7
+      },
+      "id": 14
+    },
+    "迷える音色は恋の唄": {
+      "title": "迷える音色は恋の唄",
+      "eng_title": "A Wandering Melody of Love",
+      "pack": "Sunset Radiance",
+      "composer": "からとPαnchii少年 feat.はるの",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 422,
+        "present": 670,
+        "future": 931
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 9.7
+      },
+      "id": 15
+    },
+    "Climax": {
+      "title": "Climax",
+      "eng_title": "Climax",
+      "pack": "CHUNITHM Collaboration(Collaboration Chapter 2)",
+      "composer": "USAO",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 773,
+        "present": 988,
+        "future": 1367
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.6
+      },
+      "id": 16
+    },
+    "Lost Desire": {
+      "title": "Lost Desire",
+      "eng_title": "Lost Desire",
+      "pack": "Black Fate",
+      "composer": "Powerless feat. Sennzai",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 684,
+        "present": 871,
+        "future": 1154
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.8
+      },
+      "id": 17
+    },
+    "carmine:scythe": {
+      "title": "carmine:scythe",
+      "eng_title": "carmine:scythe",
+      "pack": "Memory Archive",
+      "composer": "かゆき",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 493,
+        "present": 710,
+        "future": 1164
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.6
+      },
+      "id": 18
+    },
+    "Blaster": {
+      "title": "Blaster",
+      "eng_title": "Blaster",
+      "pack": "Arcaea",
+      "composer": "Massive New Krew",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 571,
+        "present": 635,
+        "future": 1002
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.3
+      },
+      "id": 19
+    },
+    "Singularity": {
+      "title": "Singularity",
+      "eng_title": "Singularity",
+      "pack": "Binary Enfold",
+      "composer": "ETIA.",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 534,
+        "present": 678,
+        "future": 1105
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.7
+      },
+      "id": 20
+    },
+    "Fallensquare": {
+      "title": "Fallensquare",
+      "eng_title": "Fallensquare",
+      "pack": "Memory Archive",
+      "composer": "Silentroom",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 316,
+        "present": 486,
+        "future": 703
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.0,
+        "future": 9.6
+      },
+      "id": 22
+    },
+    "Felis": {
+      "title": "Felis",
+      "eng_title": "Felis",
+      "pack": "Ephemeral Page ",
+      "composer": "M2U",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 463,
+        "present": 624,
+        "future": 1153
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.4
+      },
+      "id": 23
+    },
+    "Libertas": {
+      "title": "Libertas",
+      "eng_title": "Libertas",
+      "pack": "Memory Archive",
+      "composer": "Zekk",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 476,
+        "present": 514,
+        "future": 947
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.5,
+        "future": 9.2
+      },
+      "id": 24
+    },
+    "Feels So Right feat. Renko": {
+      "title": "Feels So Right feat. Renko",
+      "eng_title": "Feels So Right feat. Renko",
+      "pack": "Memory Archive",
+      "composer": "Mysteka",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 594,
+        "present": 636,
+        "future": 947
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 25
+    },
+    "妖艶魔女 -trappola bewitching-": {
+      "title": "妖艶魔女 -trappola bewitching-",
+      "eng_title": "trappola bewitching",
+      "pack": "Vicious Labyrinth",
+      "composer": "gmtn.",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "10"
+      },
+      "notes": {
+        "past": 415,
+        "present": 541,
+        "future": 1044
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 10.0
+      },
+      "id": 26
+    },
+    "Dandelion": {
+      "title": "Dandelion",
+      "eng_title": "Dandelion",
+      "pack": "Arcaea",
+      "composer": "Farhan",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 391,
+        "present": 698,
+        "future": 921
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.0,
+        "future": 8.5
+      },
+      "id": 27
+    },
+    "Memory Forest": {
+      "title": "Memory Forest",
+      "eng_title": "Memory Forest",
+      "pack": "Binary Enfold",
+      "composer": "ETIA.",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 639,
+        "present": 726,
+        "future": 978
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 9.8
+      },
+      "id": 28
+    },
+    "Ether Strike": {
+      "title": "Ether Strike",
+      "eng_title": "Ether Strike",
+      "pack": "Luminous Sky",
+      "composer": "Akira Complex",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10"
+      },
+      "notes": {
+        "past": 659,
+        "present": 837,
+        "future": 1170
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.3,
+        "future": 10.3
+      },
+      "id": 29
+    },
+    "Lumia": {
+      "title": "Lumia",
+      "eng_title": "Lumia",
+      "pack": "Eternal Core",
+      "composer": "sky_delta",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8",
+        "beyond": "9"
+      },
+      "notes": {
+        "past": 469,
+        "present": 438,
+        "future": 961,
+        "beyond": 814
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.4,
+        "beyond": 9.5
+      },
+      "id": 30
+    },
+    "Final Step!": {
+      "title": "Final Step!",
+      "eng_title": "Final Step!",
+      "pack": "Muse Dash Collaboration",
+      "composer": "Lime",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 625,
+        "present": 684,
+        "future": 1056
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.0,
+        "future": 9.4
+      },
+      "id": 31
+    },
+    "Xeraphinite": {
+      "title": "Xeraphinite",
+      "eng_title": "Xeraphinite",
+      "pack": "Memory Archive",
+      "composer": "BlackY",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 383,
+        "present": 643,
+        "future": 1048
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.0,
+        "future": 9.8
+      },
+      "id": 32
+    },
+    "conflict": {
+      "title": "conflict",
+      "eng_title": "conflict",
+      "pack": "Vicious Labyrinth",
+      "composer": "siromaru + cranky",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 520,
+        "present": 731,
+        "future": 1056
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.1
+      },
+      "id": 33
+    },
+    "BADTEK": {
+      "title": "BADTEK",
+      "eng_title": "BADTEK",
+      "pack": "Memory Archive",
+      "composer": "EBIMAYO",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 532,
+        "present": 595,
+        "future": 916
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.7
+      },
+      "id": 34
+    },
+    "AlterAle": {
+      "title": "AlterAle",
+      "eng_title": "AlterAle",
+      "pack": "Esoteric Order(Light of Salvation)",
+      "composer": "Arik Kau Delay(アラ&かゆき&でり)",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 728,
+        "present": 881,
+        "future": 1277
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.7
+      },
+      "id": 35
+    },
+    "Auxesia": {
+      "title": "Auxesia",
+      "eng_title": "Auxesia",
+      "pack": "Memory Archive",
+      "composer": "ginkiha",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 385,
+        "present": 648,
+        "future": 1000
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 36
+    },
+    "next to you": {
+      "title": "next to you",
+      "eng_title": "next to you",
+      "pack": "Binary Enfold",
+      "composer": "uma feat. 橘花音",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "8",
+        "beyond": "9"
+      },
+      "notes": {
+        "past": 454,
+        "present": 583,
+        "future": 824,
+        "beyond": 954
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 8.8,
+        "beyond": 9.6
+      },
+      "id": 37
+    },
+    "Be There": {
+      "title": "Be There",
+      "eng_title": "Be There",
+      "pack": "Memory Archive",
+      "composer": "PSYQUI",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 592,
+        "present": 792,
+        "future": 982
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.4
+      },
+      "id": 38
+    },
+    "Gekka (Short Version)": {
+      "title": "Gekka (Short Version)",
+      "eng_title": "Gekka (Short Version)",
+      "pack": "World Extend",
+      "composer": "Nhato",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 559,
+        "present": 628,
+        "future": 817
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.0,
+        "future": 8.6
+      },
+      "id": 39
+    },
+    "#1f1e33": {
+      "title": "#1f1e33",
+      "eng_title": "#1f1e33",
+      "pack": "Black Fate",
+      "composer": "かめりあ(EDP)",
+      "level": {
+        "past": "5",
+        "present": "9",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 765,
+        "present": 1144,
+        "future": 1576
+      },
+      "const": {
+        "past": 5.5,
+        "present": 9.2,
+        "future": 10.9
+      },
+      "id": 40
+    },
+    "業 -善なる神とこの世の悪について-": {
+      "title": "業 -善なる神とこの世の悪について-",
+      "eng_title": "Misdeed -la bonté de Dieu et l'origine du mal-",
+      "pack": "CHUNITHM Collaboration(Collaboration Chapter 2)",
+      "composer": "光吉猛修 VS 穴山大輔",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 814,
+        "present": 1070,
+        "future": 1522
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.5,
+        "future": 10.8
+      },
+      "id": 41
+    },
+    "ouroboros -twin stroke of the end-": {
+      "title": "ouroboros -twin stroke of the end-",
+      "eng_title": "ouroboros -twin stroke of the end-",
+      "pack": "Groove Coaster Collaboration ",
+      "composer": "Cranky VS MASAKI",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 575,
+        "present": 832,
+        "future": 1369
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 10.7
+      },
+      "id": 42
+    },
+    "Snow White": {
+      "title": "Snow White",
+      "eng_title": "Snow White",
+      "pack": "Arcaea",
+      "composer": "Puru",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 486,
+        "present": 672,
+        "future": 978
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.0,
+        "future": 8.4
+      },
+      "id": 43
+    },
+    "Crystal Gravity": {
+      "title": "Crystal Gravity",
+      "eng_title": "Crystal Gravity",
+      "pack": "Esoteric Order ",
+      "composer": "Tanchiky vs. siromaru",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 571,
+        "present": 653,
+        "future": 872
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.4
+      },
+      "id": 44
+    },
+    "Vicious Heroism": {
+      "title": "Vicious Heroism",
+      "eng_title": "Vicious Heroism",
+      "pack": "Absolute Reason",
+      "composer": "Kobaryo",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 430,
+        "present": 756,
+        "future": 1150
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.0
+      },
+      "id": 45
+    },
+    "Party Vinyl": {
+      "title": "Party Vinyl",
+      "eng_title": "Party Vinyl",
+      "pack": "Crimson Solace",
+      "composer": "モリモリあつし",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 337,
+        "present": 543,
+        "future": 800
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.5
+      },
+      "id": 46
+    },
+    "with U": {
+      "title": "with U",
+      "eng_title": "with U",
+      "pack": "WACCA Collaboration",
+      "composer": "t+pazolite & Massive New Krewfeat.リリィ(CV:青木志貴)",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 448,
+        "present": 649,
+        "future": 932
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.5,
+        "future": 9.4
+      },
+      "id": 47
+    },
+    "7thSense": {
+      "title": "7thSense",
+      "eng_title": "7thSense",
+      "pack": "maimai Collaboration",
+      "composer": "削除",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 360,
+        "present": 739,
+        "future": 925
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.5,
+        "future": 9.9
+      },
+      "id": 48
+    },
+    "Give Me a Nightmare": {
+      "title": "Give Me a Nightmare",
+      "eng_title": "Give Me a Nightmare",
+      "pack": "World Extend",
+      "composer": "アリスシャッハと魔法の楽団",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 676,
+        "present": 817,
+        "future": 948
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.5,
+        "future": 9.0
+      },
+      "id": 49
+    },
+    "Ascent": {
+      "title": "Ascent",
+      "eng_title": "Ascent",
+      "pack": "Binary Enfold(Shared Time)",
+      "composer": "TANUKI",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 455,
+        "present": 625,
+        "future": 1023
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.8
+      },
+      "id": 50
+    },
+    "秋の陽炎": {
+      "title": "秋の陽炎",
+      "eng_title": "Haze of Autumn",
+      "pack": "Muse Dash Collaboration",
+      "composer": "karatoPαnchii feat.はるの",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 533,
+        "present": 733,
+        "future": 1077
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.0,
+        "future": 9.8
+      },
+      "id": 51
+    },
+    "Tiferet": {
+      "title": "Tiferet",
+      "eng_title": "Tiferet",
+      "pack": "Tone Sphere Collaboration",
+      "composer": "xi + Sta",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 450,
+        "present": 720,
+        "future": 1086
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.6
+      },
+      "id": 52
+    },
+    "Vexaria": {
+      "title": "Vexaria",
+      "eng_title": "Vexaria",
+      "pack": "Arcaea",
+      "composer": "ak+q",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "7",
+        "beyond": "8"
+      },
+      "notes": {
+        "past": 369,
+        "present": 534,
+        "future": 734,
+        "beyond": 785
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.0,
+        "future": 7.0,
+        "beyond": 8.8
+      },
+      "id": 53
+    },
+    "Strongholds": {
+      "title": "Strongholds",
+      "eng_title": "Strongholds",
+      "pack": "Binary Enfold",
+      "composer": "Yooh",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 570,
+        "present": 778,
+        "future": 922
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.0,
+        "future": 9.2
+      },
+      "id": 54
+    },
+    "Lucifer": {
+      "title": "Lucifer",
+      "eng_title": "Lucifer",
+      "pack": "Arcaea",
+      "composer": "chitose",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 424,
+        "present": 506,
+        "future": 861
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.5,
+        "future": 8.2
+      },
+      "id": 55
+    },
+    "狂言綺語": {
+      "title": "狂言綺語",
+      "eng_title": "False Embellishment",
+      "pack": "World Extend",
+      "composer": "影虎。& ikaruga_nex",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 576,
+        "present": 684,
+        "future": 969
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 56
+    },
+    "Alexandrite": {
+      "title": "Alexandrite",
+      "eng_title": "Alexandrite",
+      "pack": "Memory Archive",
+      "composer": "WAiKURO",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 507,
+        "present": 699,
+        "future": 1040
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 10.0
+      },
+      "id": 57
+    },
+    "FREEF4LL": {
+      "title": "FREEF4LL",
+      "eng_title": "FREEF4LL",
+      "pack": "Arcaea",
+      "composer": "YUKIYANAGI",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "8"
+      },
+      "notes": {
+        "past": 589,
+        "present": 782,
+        "future": 1023
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 8.6
+      },
+      "id": 58
+    },
+    "γuarδina": {
+      "title": "γuarδina",
+      "eng_title": "γuarδina",
+      "pack": "Memory Archive",
+      "composer": "Aoi",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 507,
+        "present": 678,
+        "future": 1120
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.5
+      },
+      "id": 59
+    },
+    "La'qryma of the Wasteland": {
+      "title": "La'qryma of the Wasteland",
+      "eng_title": "La'qryma of the Wasteland",
+      "pack": "Memory Archive",
+      "composer": "DJ Noriken",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 447,
+        "present": 651,
+        "future": 956,
+        "beyond": 1161
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.1,
+        "beyond": 9.9
+      },
+      "id": 60
+    },
+    "Sheriruth": {
+      "title": "Sheriruth",
+      "eng_title": "Sheriruth",
+      "pack": "Eternal Core",
+      "composer": "Team Grimoire",
+      "level": {
+        "past": "5",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 611,
+        "present": 832,
+        "future": 1151
+      },
+      "const": {
+        "past": 5.5,
+        "present": 7.5,
+        "future": 10.2
+      },
+      "id": 61
+    },
+    "IZANA": {
+      "title": "IZANA",
+      "eng_title": "IZANA",
+      "pack": "Memory Archive",
+      "composer": "t+pazolite vs P*Light",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10"
+      },
+      "notes": {
+        "past": 609,
+        "present": 836,
+        "future": 976
+      },
+      "const": {
+        "past": 5.0,
+        "present": 8.3,
+        "future": 10.2
+      },
+      "id": 62
+    },
+    "Lightning Screw": {
+      "title": "Lightning Screw",
+      "eng_title": "Lightning Screw",
+      "pack": "Divided Heart",
+      "composer": "HiTECH NINJA",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 611,
+        "present": 811,
+        "future": 1192
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.5
+      },
+      "id": 63
+    },
+    "BUCHiGiRE Berserker": {
+      "title": "BUCHiGiRE Berserker",
+      "eng_title": "BUCHiGiRE Berserker",
+      "pack": "Memory Archive",
+      "composer": "REDALiCE vs MASAKI",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 850,
+        "present": 1046,
+        "future": 1412
+      },
+      "const": {
+        "past": 5.0,
+        "present": 8.6,
+        "future": 10.9
+      },
+      "id": 64
+    },
+    "Black Lotus": {
+      "title": "Black Lotus",
+      "eng_title": "Black Lotus",
+      "pack": "World Extend",
+      "composer": "wa.",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 653,
+        "present": 687,
+        "future": 965
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.7
+      },
+      "id": 65
+    },
+    "Vandalism": {
+      "title": "Vandalism",
+      "eng_title": "Vandalism",
+      "pack": "World Extend",
+      "composer": "Ashrount",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 668,
+        "present": 685,
+        "future": 1087
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 9.7
+      },
+      "id": 66
+    },
+    "夜桜吹雪": {
+      "title": "夜桜吹雪",
+      "eng_title": "Yosakura Fubuki",
+      "pack": "Memory Archive",
+      "composer": "A.SAKA",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 416,
+        "present": 582,
+        "future": 931
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 9.4
+      },
+      "id": 67
+    },
+    "緋纏いの宵": {
+      "title": "緋纏いの宵",
+      "eng_title": "Evening in Scarlet",
+      "pack": "Memory Archive",
+      "composer": "Freezer feat.妃苺",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 530,
+        "present": 638,
+        "future": 922
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.5
+      },
+      "id": 68
+    },
+    "Viyella's Tears": {
+      "title": "Viyella's Tears",
+      "eng_title": "Viyella's Tears",
+      "pack": "O.N.G.E.K.I. Collaboration",
+      "composer": "Laur",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 716,
+        "present": 942,
+        "future": 1403
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 10.4
+      },
+      "id": 69
+    },
+    "ハルトピア ~Utopia of Spring~": {
+      "title": "ハルトピア ~Utopia of Spring~",
+      "eng_title": "Harutopia ~Utopia of Spring~",
+      "pack": "Arcaea",
+      "composer": "A-zu-ra",
+      "level": {
+        "past": "1",
+        "present": "4",
+        "future": "8"
+      },
+      "notes": {
+        "past": 444,
+        "present": 706,
+        "future": 1061
+      },
+      "const": {
+        "past": 1.0,
+        "present": 4.5,
+        "future": 8.5
+      },
+      "id": 70
+    },
+    "Sayonara Hatsukoi": {
+      "title": "Sayonara Hatsukoi",
+      "eng_title": "Sayonara Hatsukoi",
+      "pack": "Arcaea",
+      "composer": "REDSHiFT",
+      "level": {
+        "past": "1",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 205,
+        "present": 305,
+        "future": 666
+      },
+      "const": {
+        "past": 1.5,
+        "present": 4.5,
+        "future": 7.0
+      },
+      "id": 71
+    },
+    "STAGER (ALL STAGE CLEAR)": {
+      "title": "STAGER (ALL STAGE CLEAR)",
+      "eng_title": "STAGER (ALL STAGE CLEAR)",
+      "pack": "Tone Sphere Collaboration",
+      "composer": "Ras",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 453,
+        "present": 559,
+        "future": 1004
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.5
+      },
+      "id": 72
+    },
+    "Antithese": {
+      "title": "Antithese",
+      "eng_title": "Antithese",
+      "pack": "Absolute Reason",
+      "composer": "Blacklolita",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8",
+        "beyond": "9"
+      },
+      "notes": {
+        "past": 845,
+        "present": 826,
+        "future": 877,
+        "beyond": 968
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.0,
+        "future": 8.8,
+        "beyond": 9.5
+      },
+      "id": 73
+    },
+    "Black Territory": {
+      "title": "Black Territory",
+      "eng_title": "Black Territory",
+      "pack": "Absolute Reason",
+      "composer": "DJ Myosuke",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 627,
+        "present": 785,
+        "future": 1195
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.5,
+        "future": 9.7
+      },
+      "id": 74
+    },
+    "Diode": {
+      "title": "Diode",
+      "eng_title": "Diode",
+      "pack": "Arcaea",
+      "composer": "Kolaa",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 452,
+        "present": 472,
+        "future": 709
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.1
+      },
+      "id": 75
+    },
+    "Nirv lucE": {
+      "title": "Nirv lucE",
+      "eng_title": "Nirv lucE",
+      "pack": "Crimson Solace",
+      "composer": "しーけー",
+      "level": {
+        "past": "2",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 297,
+        "present": 547,
+        "future": 980
+      },
+      "const": {
+        "past": 2.5,
+        "present": 7.0,
+        "future": 10.3
+      },
+      "id": 76
+    },
+    "Einherjar Joker": {
+      "title": "Einherjar Joker",
+      "eng_title": "Einherjar Joker",
+      "pack": "Memory Archive",
+      "composer": "DJ Genki vs Gram",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 582,
+        "present": 767,
+        "future": 1159
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.8
+      },
+      "id": 77
+    },
+    "Galaxy Friends": {
+      "title": "Galaxy Friends",
+      "eng_title": "Galaxy Friends",
+      "pack": "Memory Archive",
+      "composer": "Kobaryo",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 474,
+        "present": 572,
+        "future": 1013
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 9.8
+      },
+      "id": 78
+    },
+    "Grimheart": {
+      "title": "Grimheart",
+      "eng_title": "Grimheart",
+      "pack": "Arcaea",
+      "composer": "Puru",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 728,
+        "present": 699,
+        "future": 959
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.0,
+        "future": 8.6
+      },
+      "id": 79
+    },
+    "Cybernecia Catharsis": {
+      "title": "Cybernecia Catharsis",
+      "eng_title": "Cybernecia Catharsis",
+      "pack": "Arcaea",
+      "composer": "Tanchiky",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 377,
+        "present": 655,
+        "future": 946
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.5
+      },
+      "id": 80
+    },
+    "nέο κόsmo": {
+      "title": "nέο κόsmo",
+      "eng_title": "nέο κόsmo",
+      "pack": "Divided Heart",
+      "composer": "ak+q × Street",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 603,
+        "present": 791,
+        "future": 979
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.7
+      },
+      "id": 81
+    },
+    "Redolent Shape": {
+      "title": "Redolent Shape",
+      "eng_title": "Redolent Shape",
+      "pack": "Memory Archive",
+      "composer": "Sanaas",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 570,
+        "present": 717,
+        "future": 1088
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.2
+      },
+      "id": 82
+    },
+    "Nhelv": {
+      "title": "Nhelv",
+      "eng_title": "Nhelv",
+      "pack": "Arcaea",
+      "composer": "Silentroom",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 647,
+        "present": 913,
+        "future": 1108
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.9
+      },
+      "id": 83
+    },
+    "Vindication": {
+      "title": "Vindication",
+      "eng_title": "Vindication",
+      "pack": "Adverse Prelude",
+      "composer": "Laur",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 721,
+        "present": 899,
+        "future": 1075
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.5,
+        "future": 9.6
+      },
+      "id": 84
+    },
+    "Dream goes on": {
+      "title": "Dream goes on",
+      "eng_title": "Dream goes on",
+      "pack": "Lanota Collaboration",
+      "composer": "Tiny Minim",
+      "level": {
+        "past": "1",
+        "present": "5",
+        "future": "7"
+      },
+      "notes": {
+        "past": 532,
+        "present": 751,
+        "future": 719
+      },
+      "const": {
+        "past": 1.5,
+        "present": 5.0,
+        "future": 7.5
+      },
+      "id": 85
+    },
+    "Metallic Punisher": {
+      "title": "Metallic Punisher",
+      "eng_title": "Metallic Punisher",
+      "pack": "Memory Archive",
+      "composer": "INNOCENT NOIZE",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 500,
+        "present": 846,
+        "future": 1238
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.0,
+        "future": 10.2
+      },
+      "id": 86
+    },
+    "Senkyou": {
+      "title": "Senkyou",
+      "eng_title": "Senkyou",
+      "pack": "Arcaea",
+      "composer": "MYTK",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 627,
+        "present": 722,
+        "future": 964
+      },
+      "const": {
+        "past": 3.0,
+        "present": 5.5,
+        "future": 8.7
+      },
+      "id": 87
+    },
+    "Specta": {
+      "title": "Specta",
+      "eng_title": "Specta",
+      "pack": "Lanota Collaboration",
+      "composer": "Junk",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 390,
+        "present": 706,
+        "future": 1096
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.5
+      },
+      "id": 88
+    },
+    "不浄な白い鳥": {
+      "title": "不浄な白い鳥",
+      "eng_title": "Impure Bird",
+      "pack": "Memory Archive",
+      "composer": "MIssionary",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 350,
+        "present": 518,
+        "future": 805
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.5,
+        "future": 9.4
+      },
+      "id": 89
+    },
+    "Sheriruth (Laur Remix)": {
+      "title": "Sheriruth (Laur Remix)",
+      "eng_title": "Sheriruth (Laur Remix)",
+      "pack": "Memory Archive",
+      "composer": "Laur原曲提供 : Team Grimoire",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 671,
+        "present": 795,
+        "future": 1134
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.5
+      },
+      "id": 90
+    },
+    "ENERGY SYNERGY MATRIX": {
+      "title": "ENERGY SYNERGY MATRIX",
+      "eng_title": "ENERGY SYNERGY MATRIX",
+      "pack": "World Extend",
+      "composer": "Tanchiky",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 471,
+        "present": 608,
+        "future": 922
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.0,
+        "future": 9.6
+      },
+      "id": 91
+    },
+    "ΟΔΥΣΣΕΙΑ": {
+      "title": "ΟΔΥΣΣΕΙΑ",
+      "eng_title": "ΟΔΥΣΣΕΙΑ",
+      "pack": "Esoteric Order(Pale Tapestry)",
+      "composer": "Sober Bear",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 717,
+        "present": 909,
+        "future": 1092
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.5
+      },
+      "id": 92
+    },
+    "Shades of Light in a Transcendent Realm": {
+      "title": "Shades of Light in a Transcendent Realm",
+      "eng_title": "Shades of Light in a Transcendent Realm",
+      "pack": "Arcaea",
+      "composer": "ak+q",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 517,
+        "present": 789,
+        "future": 1067
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 8.3
+      },
+      "id": 93
+    },
+    "Relentless": {
+      "title": "Relentless",
+      "eng_title": "Relentless",
+      "pack": "Eternal Core",
+      "composer": "Akira Complex",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 607,
+        "present": 722,
+        "future": 1015
+      },
+      "const": {
+        "past": 4.5,
+        "present": 6.5,
+        "future": 8.0
+      },
+      "id": 94
+    },
+    "Essence of Twilight": {
+      "title": "Essence of Twilight",
+      "eng_title": "Essence of Twilight",
+      "pack": "Eternal Core",
+      "composer": "ak+q",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 556,
+        "present": 767,
+        "future": 1204
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 9.1
+      },
+      "id": 95
+    },
+    "Löschen": {
+      "title": "Löschen",
+      "eng_title": "Löschen",
+      "pack": "Esoteric Order ",
+      "composer": "BlackY feat. Risa Yuzuki",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 642,
+        "present": 850,
+        "future": 1235
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.0,
+        "future": 10.1
+      },
+      "id": 96
+    },
+    "Moonheart": {
+      "title": "Moonheart",
+      "eng_title": "Moonheart",
+      "pack": "Ambivalent Vision",
+      "composer": "翡乃イスカ",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 449,
+        "present": 566,
+        "future": 947,
+        "beyond": 1139
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.4,
+        "beyond": 9.6
+      },
+      "id": 97
+    },
+    "Altale": {
+      "title": "Altale",
+      "eng_title": "Altale",
+      "pack": "Memory Archive",
+      "composer": "Sakuzyo",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 357,
+        "present": 424,
+        "future": 690
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 9.7
+      },
+      "id": 98
+    },
+    "Chronostasis": {
+      "title": "Chronostasis",
+      "eng_title": "Chronostasis",
+      "pack": "Arcaea",
+      "composer": "黒皇帝",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 619,
+        "present": 812,
+        "future": 916
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 9.1
+      },
+      "id": 99
+    },
+    "Syro": {
+      "title": "Syro",
+      "eng_title": "Syro",
+      "pack": "Arcaea",
+      "composer": "Mitomoro",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 535,
+        "present": 829,
+        "future": 1150
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 100
+    },
+    "One Last Drive": {
+      "title": "One Last Drive",
+      "eng_title": "One Last Drive",
+      "pack": "Arcaea",
+      "composer": "REDSHiFT",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 604,
+        "present": 564,
+        "future": 885
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.2
+      },
+      "id": 101
+    },
+    "Suomi": {
+      "title": "Suomi",
+      "eng_title": "Suomi",
+      "pack": "Arcaea",
+      "composer": "Aire",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "7"
+      },
+      "notes": {
+        "past": 368,
+        "present": 550,
+        "future": 818
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.0,
+        "future": 7.5
+      },
+      "id": 102
+    },
+    "Equilibrium": {
+      "title": "Equilibrium",
+      "eng_title": "Equilibrium",
+      "pack": "Black Fate",
+      "composer": "Maozon",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 587,
+        "present": 724,
+        "future": 951
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.4
+      },
+      "id": 103
+    },
+    "Fairytale": {
+      "title": "Fairytale",
+      "eng_title": "Fairytale",
+      "pack": "Arcaea",
+      "composer": "chitose",
+      "level": {
+        "past": "1",
+        "present": "3",
+        "future": "7",
+        "beyond": "9"
+      },
+      "notes": {
+        "past": 336,
+        "present": 511,
+        "future": 782,
+        "beyond": 932
+      },
+      "const": {
+        "past": 1.0,
+        "present": 3.5,
+        "future": 7.0,
+        "beyond": 9.5
+      },
+      "id": 104
+    },
+    "PRAGMATISM(PRAGMATISM -RESURRECTION-)": {
+      "title": "PRAGMATISM(PRAGMATISM -RESURRECTION-)",
+      "eng_title": "PRAGMATISM(PRAGMATISM -RESURRECTION-)",
+      "pack": "Eternal Core",
+      "composer": "Laur",
+      "level": {
+        "past": "4",
+        "present": "8",
+        "future": "10",
+        "beyond": "11"
+      },
+      "notes": {
+        "past": 476,
+        "present": 855,
+        "future": 942,
+        "beyond": 1502
+      },
+      "const": {
+        "past": 4.5,
+        "present": 8.6,
+        "future": 10.1,
+        "beyond": 11.0
+      },
+      "id": 105
+    },
+    "lastendconductor": {
+      "title": "lastendconductor",
+      "eng_title": "lastendconductor",
+      "pack": "Memory Archive",
+      "composer": "zts",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9",
+        "beyond": "10"
+      },
+      "notes": {
+        "past": 726,
+        "present": 901,
+        "future": 1209,
+        "beyond": 1339
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.0,
+        "future": 9.4,
+        "beyond": 10.2
+      },
+      "id": 106
+    },
+    "Small Cloud Sugar Candy": {
+      "title": "Small Cloud Sugar Candy",
+      "eng_title": "Small Cloud Sugar Candy",
+      "pack": "Esoteric Order(Light of Salvation)",
+      "composer": "テヅカ × Aoi feat.桃雛なの",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 548,
+        "present": 727,
+        "future": 919
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.1
+      },
+      "id": 107
+    },
+    "qualia -ideaesthesia-": {
+      "title": "qualia -ideaesthesia-",
+      "eng_title": "qualia -ideaesthesia-",
+      "pack": "Arcaea",
+      "composer": "nitro",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 550,
+        "present": 875,
+        "future": 1022,
+        "beyond": 1288
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 9.1,
+        "beyond": 9.7
+      },
+      "id": 108
+    },
+    "inkar-usi": {
+      "title": "inkar-usi",
+      "eng_title": "inkar-usi",
+      "pack": "Arcaea",
+      "composer": "DIA",
+      "level": {
+        "past": "2",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 276,
+        "present": 326,
+        "future": 463
+      },
+      "const": {
+        "past": 2.0,
+        "present": 4.0,
+        "future": 7.5
+      },
+      "id": 109
+    },
+    "Modelista": {
+      "title": "Modelista",
+      "eng_title": "Modelista",
+      "pack": "Memory Archive",
+      "composer": "HiTECH NINJA",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 418,
+        "present": 691,
+        "future": 1010
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 10.0
+      },
+      "id": 110
+    },
+    "HIVEMIND": {
+      "title": "HIVEMIND",
+      "eng_title": "HIVEMIND",
+      "pack": "World Extend",
+      "composer": "かたぎり",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 995,
+        "present": 988,
+        "future": 1252
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.9
+      },
+      "id": 111
+    },
+    "Scarlet Lance": {
+      "title": "Scarlet Lance",
+      "eng_title": "Scarlet Lance",
+      "pack": "Groove Coaster Collaboration ",
+      "composer": "MASAKI (ZUNTATA)",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 517,
+        "present": 644,
+        "future": 1130
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 10.1
+      },
+      "id": 112
+    },
+    "αterlβus": {
+      "title": "αterlβus",
+      "eng_title": "αterlβus",
+      "pack": "Dynamix Collaboration",
+      "composer": "Aoi",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 505,
+        "present": 668,
+        "future": 1030
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 10.2
+      },
+      "id": 113
+    },
+    "THE ULTIMACY": {
+      "title": "THE ULTIMACY",
+      "eng_title": "THE ULTIMACY",
+      "pack": "Memory Archive",
+      "composer": "aran vs Massive New Krew",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 749,
+        "present": 919,
+        "future": 1304
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.0,
+        "future": 9.7
+      },
+      "id": 114
+    },
+    "九番目の迷路": {
+      "title": "九番目の迷路",
+      "eng_title": "Maze No.9",
+      "pack": "Luminous Sky",
+      "composer": "アリスシャッハと魔法の楽団",
+      "level": {
+        "past": "3",
+        "present": "3",
+        "future": "8"
+      },
+      "notes": {
+        "past": 494,
+        "present": 445,
+        "future": 775
+      },
+      "const": {
+        "past": 3.0,
+        "present": 3.5,
+        "future": 8.9
+      },
+      "id": 115
+    },
+    "Corruption": {
+      "title": "Corruption",
+      "eng_title": "Corruption",
+      "pack": "Absolute Reason",
+      "composer": "3R2",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 664,
+        "present": 847,
+        "future": 1293
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.9
+      },
+      "id": 116
+    },
+    "Jump": {
+      "title": "Jump",
+      "eng_title": "Jump",
+      "pack": "Ephemeral Page ",
+      "composer": "Rasmus Faber",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 531,
+        "present": 622,
+        "future": 841
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.0,
+        "future": 9.0
+      },
+      "id": 117
+    },
+    "Axium Crisis": {
+      "title": "Axium Crisis",
+      "eng_title": "Axium Crisis",
+      "pack": "Vicious Labyrinth",
+      "composer": "ak+q",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 685,
+        "present": 1065,
+        "future": 1094
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.5,
+        "future": 10.9
+      },
+      "id": 118
+    },
+    "フライブルクとエンドロウル": {
+      "title": "フライブルクとエンドロウル",
+      "eng_title": "Flyburg and Endroll",
+      "pack": "Crimson Solace",
+      "composer": "アリスシャッハと魔法の楽団",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 413,
+        "present": 650,
+        "future": 930
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.0
+      },
+      "id": 119
+    },
+    "烈華RESONANCE": {
+      "title": "烈華RESONANCE",
+      "eng_title": "REKKA RESONANCE",
+      "pack": "Memory Archive",
+      "composer": "REDALiCE vs Kobaryo",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 860,
+        "present": 1051,
+        "future": 1212
+      },
+      "const": {
+        "past": 5.0,
+        "present": 8.3,
+        "future": 10.7
+      },
+      "id": 120
+    },
+    "最強STRONGER": {
+      "title": "最強STRONGER",
+      "eng_title": "SAIKYO STRONGER",
+      "pack": "Memory Archive",
+      "composer": "REDALiCE vs USAO",
+      "level": {
+        "past": "5",
+        "present": "9",
+        "future": "11"
+      },
+      "notes": {
+        "past": 654,
+        "present": 1067,
+        "future": 1384
+      },
+      "const": {
+        "past": 5.5,
+        "present": 9.4,
+        "future": 11.0
+      },
+      "id": 121
+    },
+    "Dement ~after legend~": {
+      "title": "Dement ~after legend~",
+      "eng_title": "Dement ~after legend~",
+      "pack": "Arcaea",
+      "composer": "Cosmograph",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "7",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 548,
+        "present": 756,
+        "future": 970,
+        "beyond": 1040
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 7.5,
+        "beyond": 9.9
+      },
+      "id": 122
+    },
+    "Paradise": {
+      "title": "Paradise",
+      "eng_title": "Paradise",
+      "pack": "Crimson Solace",
+      "composer": "Sound Souler",
+      "level": {
+        "past": "1",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 253,
+        "present": 349,
+        "future": 729
+      },
+      "const": {
+        "past": 1.0,
+        "present": 4.0,
+        "future": 7.5
+      },
+      "id": 123
+    },
+    "Hall of Mirrors": {
+      "title": "Hall of Mirrors",
+      "eng_title": "Hall of Mirrors",
+      "pack": "Tone Sphere Collaboration",
+      "composer": "Sta",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 535,
+        "present": 553,
+        "future": 898
+      },
+      "const": {
+        "past": 3.0,
+        "present": 5.5,
+        "future": 8.2
+      },
+      "id": 124
+    },
+    "Lazy Addiction": {
+      "title": "Lazy Addiction",
+      "eng_title": "Lazy Addiction",
+      "pack": "O.N.G.E.K.I. Collaboration",
+      "composer": "sky_delta",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 462,
+        "present": 647,
+        "future": 1031
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.0,
+        "future": 9.4
+      },
+      "id": 125
+    },
+    "corps-sans-organes": {
+      "title": "corps-sans-organes",
+      "eng_title": "corps-sans-organes",
+      "pack": "Ambivalent Vision",
+      "composer": "cybermiso",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 438,
+        "present": 615,
+        "future": 1077
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.6
+      },
+      "id": 126
+    },
+    "Alice's Suitcase": {
+      "title": "Alice's Suitcase",
+      "eng_title": "Alice's Suitcase",
+      "pack": "Ephemeral Page ",
+      "composer": "Endorfin.",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 644,
+        "present": 660,
+        "future": 999
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 9.1
+      },
+      "id": 127
+    },
+    "神奈川電脳暗渠": {
+      "title": "神奈川電脳暗渠",
+      "eng_title": "Kanagawa Cyber Culvert",
+      "pack": "Arcaea",
+      "composer": "南ゆに",
+      "level": {
+        "past": "1",
+        "present": "5",
+        "future": "9",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 375,
+        "present": 707,
+        "future": 1111,
+        "beyond": 1121
+      },
+      "const": {
+        "past": 1.0,
+        "present": 5.5,
+        "future": 9.0,
+        "beyond": 9.8
+      },
+      "id": 128
+    },
+    "Ignotus": {
+      "title": "Ignotus",
+      "eng_title": "Ignotus",
+      "pack": "Arcaea",
+      "composer": "ak+q",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 579,
+        "present": 809,
+        "future": 1225
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 129
+    },
+    "Call My Name feat. Yukacco": {
+      "title": "Call My Name feat. Yukacco",
+      "eng_title": "Call My Name feat. Yukacco",
+      "pack": "Memory Archive",
+      "composer": "Mameyudoufu",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 591,
+        "present": 653,
+        "future": 921
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 8.7
+      },
+      "id": 130
+    },
+    "Cyaegha": {
+      "title": "Cyaegha",
+      "eng_title": "Cyaegha",
+      "pack": "Absolute Reason",
+      "composer": "USAO",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 760,
+        "present": 984,
+        "future": 1368
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.4,
+        "future": 10.8
+      },
+      "id": 131
+    },
+    "Reinvent": {
+      "title": "Reinvent",
+      "eng_title": "Reinvent",
+      "pack": "Arcaea",
+      "composer": "Sound Souler",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 570,
+        "present": 703,
+        "future": 852
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.5,
+        "future": 8.5
+      },
+      "id": 132
+    },
+    "Garakuta Doll Play": {
+      "title": "Garakuta Doll Play",
+      "eng_title": "Garakuta Doll Play",
+      "pack": "CHUNITHM Collaboration",
+      "composer": "t+pazolite",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "10"
+      },
+      "notes": {
+        "past": 444,
+        "present": 572,
+        "future": 1035
+      },
+      "const": {
+        "past": 4.5,
+        "present": 6.5,
+        "future": 10.4
+      },
+      "id": 133
+    },
+    "Monochrome Princess": {
+      "title": "Monochrome Princess",
+      "eng_title": "Monochrome Princess",
+      "pack": "Arcaea",
+      "composer": "polysha",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 621,
+        "present": 756,
+        "future": 974
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 9.6
+      },
+      "id": 134
+    },
+    "Your voice so... feat. Such": {
+      "title": "Your voice so... feat. Such",
+      "eng_title": "Your voice so... feat. Such",
+      "pack": "Memory Archive",
+      "composer": "PSYQUI",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 469,
+        "present": 677,
+        "future": 1013
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.4
+      },
+      "id": 135
+    },
+    "SUPERNOVA": {
+      "title": "SUPERNOVA",
+      "eng_title": "SUPERNOVA",
+      "pack": "Arcaea",
+      "composer": "BACO",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 664,
+        "present": 564,
+        "future": 1123
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.8
+      },
+      "id": 136
+    },
+    "Halcyon": {
+      "title": "Halcyon",
+      "eng_title": "Halcyon",
+      "pack": "Luminous Sky",
+      "composer": "xi",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 662,
+        "present": 943,
+        "future": 1227
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.2,
+        "future": 10.7
+      },
+      "id": 137
+    },
+    "AMAZING MIGHTYYYY!!!!": {
+      "title": "AMAZING MIGHTYYYY!!!!",
+      "eng_title": "AMAZING MIGHTYYYY!!!!",
+      "pack": "maimai Collaboration",
+      "composer": "WAiKURO",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 624,
+        "present": 776,
+        "future": 1249
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 10.7
+      },
+      "id": 138
+    },
+    "Lethaeus": {
+      "title": "Lethaeus",
+      "eng_title": "Lethaeus",
+      "pack": "Ambivalent Vision",
+      "composer": "Silentroom",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 480,
+        "present": 717,
+        "future": 900
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.7
+      },
+      "id": 139
+    },
+    "Moonlight of Sand Castle": {
+      "title": "Moonlight of Sand Castle",
+      "eng_title": "Moonlight of Sand Castle",
+      "pack": "Dynamix Collaboration",
+      "composer": "旅人E",
+      "level": {
+        "past": "1",
+        "present": "5",
+        "future": "7"
+      },
+      "notes": {
+        "past": 418,
+        "present": 394,
+        "future": 645
+      },
+      "const": {
+        "past": 1.5,
+        "present": 5.0,
+        "future": 7.5
+      },
+      "id": 140
+    },
+    "GOODTEK (Arcaea Edit)": {
+      "title": "GOODTEK (Arcaea Edit)",
+      "eng_title": "GOODTEK (Arcaea Edit)",
+      "pack": "Arcaea",
+      "composer": "EBIMAYO",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 449,
+        "present": 632,
+        "future": 968,
+        "beyond": 1103
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.5,
+        "future": 9.3,
+        "beyond": 9.8
+      },
+      "id": 141
+    },
+    "Faint Light (Arcaea Edit)": {
+      "title": "Faint Light (Arcaea Edit)",
+      "eng_title": "Faint Light (Arcaea Edit)",
+      "pack": "World Extend",
+      "composer": "Taishi",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 587,
+        "present": 711,
+        "future": 809
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.1
+      },
+      "id": 142
+    },
+    "cyanine": {
+      "title": "cyanine",
+      "eng_title": "cyanine",
+      "pack": "Lanota Collaboration",
+      "composer": "jioyi",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 661,
+        "present": 947,
+        "future": 1171
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.6
+      },
+      "id": 143
+    },
+    "Surrender": {
+      "title": "Surrender",
+      "eng_title": "Surrender",
+      "pack": "Memory Archive",
+      "composer": "void",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 550,
+        "present": 721,
+        "future": 925
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 8.8
+      },
+      "id": 144
+    },
+    "AI[UE]OON": {
+      "title": "AI[UE]OON",
+      "eng_title": "AI[UE]OON",
+      "pack": "Sunset Radiance",
+      "composer": "MYUKKE.",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 436,
+        "present": 623,
+        "future": 989
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.5
+      },
+      "id": 145
+    },
+    "GENOCIDER": {
+      "title": "GENOCIDER",
+      "eng_title": "GENOCIDER",
+      "pack": "WACCA Collaboration",
+      "composer": "DJ Myosuke",
+      "level": {
+        "past": "4",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 832,
+        "present": 1025,
+        "future": 1483
+      },
+      "const": {
+        "past": 4.5,
+        "present": 8.5,
+        "future": 10.7
+      },
+      "id": 146
+    },
+    "Evoltex (poppi'n mix)": {
+      "title": "Evoltex (poppi'n mix)",
+      "eng_title": "Evoltex (poppi'n mix)",
+      "pack": "Dynamix Collaboration",
+      "composer": "Arch vs n3pu",
+      "level": {
+        "past": "2",
+        "present": "7",
+        "future": "8"
+      },
+      "notes": {
+        "past": 297,
+        "present": 627,
+        "future": 775
+      },
+      "const": {
+        "past": 2.0,
+        "present": 7.0,
+        "future": 8.9
+      },
+      "id": 147
+    },
+    "Eccentric Tale": {
+      "title": "Eccentric Tale",
+      "eng_title": "Eccentric Tale",
+      "pack": "Ephemeral Page ",
+      "composer": "Yamajet",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 313,
+        "present": 483,
+        "future": 732
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.5,
+        "future": 8.4
+      },
+      "id": 148
+    },
+    "Fracture Ray": {
+      "title": "Fracture Ray",
+      "eng_title": "Fracture Ray",
+      "pack": "Luminous Sky",
+      "composer": "Sakuzyo",
+      "level": {
+        "past": "6",
+        "present": "9",
+        "future": "11"
+      },
+      "notes": {
+        "past": 983,
+        "present": 1343,
+        "future": 1279
+      },
+      "const": {
+        "past": 6.0,
+        "present": 9.5,
+        "future": 11.2
+      },
+      "id": 149
+    },
+    "光": {
+      "title": "光",
+      "eng_title": "Hikari",
+      "pack": "Tone Sphere Collaboration",
+      "composer": "THB",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 237,
+        "present": 450,
+        "future": 684
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.0,
+        "future": 8.1
+      },
+      "id": 150
+    },
+    "Blue Rose": {
+      "title": "Blue Rose",
+      "eng_title": "Blue Rose",
+      "pack": "Divided Heart",
+      "composer": "Cosmograph",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 595,
+        "present": 669,
+        "future": 955
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.5,
+        "future": 9.1
+      },
+      "id": 151
+    },
+    "四月の雨": {
+      "title": "四月の雨",
+      "eng_title": "April showers",
+      "pack": "maimai Collaboration",
+      "composer": "cubesato",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 363,
+        "present": 544,
+        "future": 697
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.5,
+        "future": 8.3
+      },
+      "id": 152
+    },
+    "Malicious Mischance": {
+      "title": "Malicious Mischance",
+      "eng_title": "Malicious Mischance",
+      "pack": "Memory Archive",
+      "composer": "s-don",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 510,
+        "present": 706,
+        "future": 1126
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.1
+      },
+      "id": 153
+    },
+    "Live Fast Die Young": {
+      "title": "Live Fast Die Young",
+      "eng_title": "Live Fast Die Young",
+      "pack": "Binary Enfold(Shared Time)",
+      "composer": "anubasu-anubasu",
+      "level": {
+        "past": "4",
+        "present": "8",
+        "future": "10"
+      },
+      "notes": {
+        "past": 565,
+        "present": 837,
+        "future": 1292
+      },
+      "const": {
+        "past": 4.5,
+        "present": 8.1,
+        "future": 10.5
+      },
+      "id": 154
+    },
+    "Dreamin' Attraction!!": {
+      "title": "Dreamin' Attraction!!",
+      "eng_title": "Dreamin' Attraction!!",
+      "pack": "Arcaea",
+      "composer": "翡乃イスカ",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 592,
+        "present": 785,
+        "future": 1129
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 9.6
+      },
+      "id": 155
+    },
+    "Far Away Light": {
+      "title": "Far Away Light",
+      "eng_title": "Far Away Light",
+      "pack": "Esoteric Order ",
+      "composer": "technoplanetfeat. はるの&黒沢ダイスケ",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 656,
+        "present": 769,
+        "future": 1322
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 9.8
+      },
+      "id": 156
+    },
+    "Vivid Theory": {
+      "title": "Vivid Theory",
+      "eng_title": "Vivid Theory",
+      "pack": "World Extend",
+      "composer": "ak+q",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 447,
+        "present": 658,
+        "future": 885
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.0,
+        "future": 8.8
+      },
+      "id": 157
+    },
+    "blue comet": {
+      "title": "blue comet",
+      "eng_title": "blue comet",
+      "pack": "World Extend",
+      "composer": "ああああ",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 494,
+        "present": 645,
+        "future": 776
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.0,
+        "future": 8.2
+      },
+      "id": 158
+    },
+    "アリス・リデルに捧ぐ": {
+      "title": "アリス・リデルに捧ぐ",
+      "eng_title": "To: Alice Liddell",
+      "pack": "Ephemeral Page(The Journey Onwards)",
+      "composer": "モリモリあつし",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 535,
+        "present": 674,
+        "future": 998
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 10.4
+      },
+      "id": 159
+    },
+    "init()": {
+      "title": "init()",
+      "eng_title": "init()",
+      "pack": "Memory Archive",
+      "composer": "kamome sano",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 713,
+        "present": 957,
+        "future": 1204
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.8
+      },
+      "id": 160
+    },
+    "怒槌": {
+      "title": "怒槌",
+      "eng_title": "Ikazuchi",
+      "pack": "CHUNITHM Collaboration",
+      "composer": "光吉猛修",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 656,
+        "present": 976,
+        "future": 1347
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 10.5
+      },
+      "id": 161
+    },
+    "Let you DIVE! (nitro rmx)": {
+      "title": "Let you DIVE! (nitro rmx)",
+      "eng_title": "Let you DIVE! (nitro rmx)",
+      "pack": "WACCA Collaboration",
+      "composer": "nitro (lowiro)原曲提供 : HARDCORE TANO*C ＆ エリザベス",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 608,
+        "present": 819,
+        "future": 1049
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.2
+      },
+      "id": 162
+    },
+    "BLRINK": {
+      "title": "BLRINK",
+      "eng_title": "BLRINK",
+      "pack": "Adverse Prelude",
+      "composer": "Sta",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 400,
+        "present": 683,
+        "future": 1015
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 9.7
+      },
+      "id": 163
+    },
+    "Alice à la mode": {
+      "title": "Alice à la mode",
+      "eng_title": "Alice à la mode",
+      "pack": "Ephemeral Page ",
+      "composer": "Masanori Akita",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 436,
+        "present": 618,
+        "future": 872
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.5,
+        "future": 9.2
+      },
+      "id": 164
+    },
+    "Infinity Heaven": {
+      "title": "Infinity Heaven",
+      "eng_title": "Infinity Heaven",
+      "pack": "Arcaea",
+      "composer": "HyuN",
+      "level": {
+        "past": "1",
+        "present": "5",
+        "future": "7",
+        "beyond": "9"
+      },
+      "notes": {
+        "past": 336,
+        "present": 545,
+        "future": 853,
+        "beyond": 986
+      },
+      "const": {
+        "past": 1.5,
+        "present": 5.5,
+        "future": 7.5,
+        "beyond": 9.6
+      },
+      "id": 165
+    },
+    "World Vanquisher": {
+      "title": "World Vanquisher",
+      "eng_title": "World Vanquisher",
+      "pack": "CHUNITHM Collaboration",
+      "composer": "void (Mournfinale)",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 529,
+        "present": 759,
+        "future": 1452
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 10.9
+      },
+      "id": 166
+    },
+    "Rise": {
+      "title": "Rise",
+      "eng_title": "Rise",
+      "pack": "Arcaea",
+      "composer": "Combatplayer",
+      "level": {
+        "past": "2",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 322,
+        "present": 599,
+        "future": 788
+      },
+      "const": {
+        "past": 2.5,
+        "present": 4.0,
+        "future": 7.5
+      },
+      "id": 167
+    },
+    "Linear Accelerator": {
+      "title": "Linear Accelerator",
+      "eng_title": "Linear Accelerator",
+      "pack": "Tone Sphere Collaboration",
+      "composer": "THE SHAFT",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 438,
+        "present": 488,
+        "future": 905
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.5,
+        "future": 9.8
+      },
+      "id": 168
+    },
+    "Silent Rush": {
+      "title": "Silent Rush",
+      "eng_title": "Silent Rush",
+      "pack": "Binary Enfold",
+      "composer": "Soleily",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 416,
+        "present": 674,
+        "future": 941
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.0,
+        "future": 8.6
+      },
+      "id": 169
+    },
+    "Grievous Lady": {
+      "title": "Grievous Lady",
+      "eng_title": "Grievous Lady",
+      "pack": "Vicious Labyrinth",
+      "composer": "Team Grimoire vs Laur",
+      "level": {
+        "past": "6",
+        "present": "9",
+        "future": "11"
+      },
+      "notes": {
+        "past": 956,
+        "present": 1194,
+        "future": 1450
+      },
+      "const": {
+        "past": 6.5,
+        "present": 9.3,
+        "future": 11.3
+      },
+      "id": 170
+    },
+    "Lapis": {
+      "title": "Lapis",
+      "eng_title": "Lapis",
+      "pack": "World Extend",
+      "composer": "SHIKI",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 391,
+        "present": 520,
+        "future": 920
+      },
+      "const": {
+        "past": 2.0,
+        "present": 6.0,
+        "future": 9.4
+      },
+      "id": 171
+    },
+    "G e n g a o z o": {
+      "title": "G e n g a o z o",
+      "eng_title": "G e n g a o z o",
+      "pack": "World Extend",
+      "composer": "-45",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 580,
+        "present": 870,
+        "future": 1353
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.3
+      },
+      "id": 172
+    },
+    "GLORY：ROAD": {
+      "title": "GLORY：ROAD",
+      "eng_title": "GLORY：ROAD",
+      "pack": "Crimson Solace",
+      "composer": "uma  vs. モリモリあつし",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 868,
+        "present": 999,
+        "future": 1479
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 10.6
+      },
+      "id": 173
+    },
+    "Blossoms": {
+      "title": "Blossoms",
+      "eng_title": "Blossoms",
+      "pack": "Ambivalent Vision",
+      "composer": "T2Kazuya",
+      "level": {
+        "past": "1",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 275,
+        "present": 383,
+        "future": 655
+      },
+      "const": {
+        "past": 1.0,
+        "present": 4.0,
+        "future": 7.0
+      },
+      "id": 174
+    },
+    "vsキミ戦争": {
+      "title": "vsキミ戦争",
+      "eng_title": "Romance Wars",
+      "pack": "Ambivalent Vision",
+      "composer": "U-ske (feat. lueur)",
+      "level": {
+        "past": "1",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 423,
+        "present": 378,
+        "future": 641
+      },
+      "const": {
+        "past": 1.0,
+        "present": 4.0,
+        "future": 7.5
+      },
+      "id": 175
+    },
+    "Purple Verse": {
+      "title": "Purple Verse",
+      "eng_title": "Purple Verse",
+      "pack": "World Extend",
+      "composer": "Hommarju",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 558,
+        "present": 664,
+        "future": 1023
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.5
+      },
+      "id": 176
+    },
+    "Valhalla:0": {
+      "title": "Valhalla:0",
+      "eng_title": "Valhalla:0",
+      "pack": "Sunset Radiance",
+      "composer": "Juggernaut.",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 624,
+        "present": 893,
+        "future": 1173
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 10.4
+      },
+      "id": 177
+    },
+    "Oshama Scramble!": {
+      "title": "Oshama Scramble!",
+      "eng_title": "Oshama Scramble!",
+      "pack": "maimai Collaboration",
+      "composer": "t+pazolite",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "10"
+      },
+      "notes": {
+        "past": 508,
+        "present": 568,
+        "future": 1073
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 10.0
+      },
+      "id": 178
+    },
+    "DX超性能フルメタル少女": {
+      "title": "DX超性能フルメタル少女",
+      "eng_title": "DX Choseinou Full Metal Shojo",
+      "pack": "Groove Coaster Collaboration ",
+      "composer": "IOSYS TRAX (uno with.ちよこ)",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 327,
+        "present": 556,
+        "future": 808
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.8
+      },
+      "id": 179
+    },
+    "Mazy Metroplex": {
+      "title": "Mazy Metroplex",
+      "eng_title": "Mazy Metroplex",
+      "pack": "WACCA Collaboration",
+      "composer": "aran",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 453,
+        "present": 704,
+        "future": 952
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.5,
+        "future": 9.7
+      },
+      "id": 180
+    },
+    "Quon": {
+      "title": "Quon",
+      "eng_title": "Quon",
+      "pack": "Lanota Collaboration",
+      "composer": "Feryquitous",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 547,
+        "present": 718,
+        "future": 991
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.5,
+        "future": 9.7
+      },
+      "id": 181
+    },
+    "Teriqma": {
+      "title": "Teriqma",
+      "eng_title": "Teriqma",
+      "pack": "Memory Archive",
+      "composer": "owl*tree",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 345,
+        "present": 579,
+        "future": 873
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.4
+      },
+      "id": 182
+    },
+    "Seclusion": {
+      "title": "Seclusion",
+      "eng_title": "Seclusion",
+      "pack": "Esoteric Order",
+      "composer": "Laur feat. Sennzai",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 544,
+        "present": 762,
+        "future": 1132
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 10.5
+      },
+      "id": 183
+    },
+    "Red and Blue": {
+      "title": "Red and Blue",
+      "eng_title": "Red and Blue",
+      "pack": "Arcaea",
+      "composer": "Silentroom",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 464,
+        "present": 597,
+        "future": 845
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.4
+      },
+      "id": 184
+    },
+    "竹": {
+      "title": "竹",
+      "eng_title": "Bamboo",
+      "pack": "World Extend",
+      "composer": "立秋 feat.ちょこ",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 499,
+        "present": 631,
+        "future": 1050
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.9
+      },
+      "id": 185
+    },
+    "MAHOROBA": {
+      "title": "MAHOROBA",
+      "eng_title": "MAHOROBA",
+      "pack": "Memory Archive",
+      "composer": "Zekk",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 422,
+        "present": 632,
+        "future": 828
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.5
+      },
+      "id": 186
+    },
+    "Tempestissimo": {
+      "title": "Tempestissimo",
+      "eng_title": "Tempestissimo",
+      "pack": "Black Fate",
+      "composer": "t+pazolite",
+      "level": {
+        "past": "6",
+        "present": "9",
+        "future": "10",
+        "beyond": "11"
+      },
+      "notes": {
+        "past": 919,
+        "present": 1034,
+        "future": 1254,
+        "beyond": 1540
+      },
+      "const": {
+        "past": 6.5,
+        "present": 9.5,
+        "future": 10.6,
+        "beyond": 11.5
+      },
+      "id": 187
+    },
+    "Cosmica": {
+      "title": "Cosmica",
+      "eng_title": "Cosmica",
+      "pack": "Binary Enfold(Shared Time)",
+      "composer": "Nhato",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 428,
+        "present": 566,
+        "future": 773
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.0,
+        "future": 8.2
+      },
+      "id": 188
+    },
+    "VECTOЯ": {
+      "title": "VECTOЯ",
+      "eng_title": "VECTOЯ",
+      "pack": "Arcaea",
+      "composer": "WHITEFISTS",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 675,
+        "present": 1002,
+        "future": 1299
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.0,
+        "future": 9.4
+      },
+      "id": 189
+    },
+    "ベースラインやってる？w": {
+      "title": "ベースラインやってる？w",
+      "eng_title": "Can I Friend You On Bassbook? Lol",
+      "pack": "Memory Archive",
+      "composer": "かめりあ feat. ななひら",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 415,
+        "present": 548,
+        "future": 861
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 190
+    },
+    "Avant Raze": {
+      "title": "Avant Raze",
+      "eng_title": "Avant Raze",
+      "pack": "Memory Archive",
+      "composer": "Sampling Masters MEGA",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 580,
+        "present": 727,
+        "future": 1125
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.6
+      },
+      "id": 191
+    },
+    "Brand new world": {
+      "title": "Brand new world",
+      "eng_title": "Brand new world",
+      "pack": "Arcaea",
+      "composer": "U-ske",
+      "level": {
+        "past": "2",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 322,
+        "present": 432,
+        "future": 787
+      },
+      "const": {
+        "past": 2.0,
+        "present": 4.0,
+        "future": 7.5
+      },
+      "id": 192
+    },
+    "Scarlet Cage": {
+      "title": "Scarlet Cage",
+      "eng_title": "Scarlet Cage",
+      "pack": "Memory Archive",
+      "composer": "Daisuke Kurosawa",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 570,
+        "present": 711,
+        "future": 1195
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.7
+      },
+      "id": 193
+    },
+    "Astral tale": {
+      "title": "Astral tale",
+      "eng_title": "Astral tale",
+      "pack": "Memory Archive",
+      "composer": "Noah",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 445,
+        "present": 642,
+        "future": 884
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 9.6
+      },
+      "id": 194
+    },
+    "ReviXy": {
+      "title": "ReviXy",
+      "eng_title": "ReviXy",
+      "pack": "Arcaea",
+      "composer": "ikaruga_nex",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 538,
+        "present": 729,
+        "future": 1047
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.0
+      },
+      "id": 195
+    },
+    "enchanted love": {
+      "title": "enchanted love",
+      "eng_title": "enchanted love",
+      "pack": "World Extend",
+      "composer": "linear ring",
+      "level": {
+        "past": "2",
+        "present": "4",
+        "future": "8"
+      },
+      "notes": {
+        "past": 436,
+        "present": 617,
+        "future": 759
+      },
+      "const": {
+        "past": 2.0,
+        "present": 4.5,
+        "future": 8.4
+      },
+      "id": 196
+    },
+    "Oblivia": {
+      "title": "Oblivia",
+      "eng_title": "Oblivia",
+      "pack": "Arcaea",
+      "composer": "Saiph",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 574,
+        "present": 517,
+        "future": 956
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.0,
+        "future": 8.3
+      },
+      "id": 197
+    },
+    "Chelsea": {
+      "title": "Chelsea",
+      "eng_title": "Chelsea",
+      "pack": "Sunset Radiance",
+      "composer": "7mai",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 388,
+        "present": 503,
+        "future": 650
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 8.5
+      },
+      "id": 198
+    },
+    "GIMME DA BLOOD": {
+      "title": "GIMME DA BLOOD",
+      "eng_title": "GIMME DA BLOOD",
+      "pack": "Memory Archive",
+      "composer": "C-Show",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 582,
+        "present": 737,
+        "future": 1093
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.0,
+        "future": 10.3
+      },
+      "id": 199
+    },
+    "Iconoclast": {
+      "title": "Iconoclast",
+      "eng_title": "Iconoclast",
+      "pack": "Vicious Labyrinth",
+      "composer": "Yamajet",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 443,
+        "present": 593,
+        "future": 795
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.1
+      },
+      "id": 200
+    },
+    "CROSS†OVER": {
+      "title": "CROSS†OVER",
+      "eng_title": "CROSS†OVER",
+      "pack": "World Extend",
+      "composer": "HyuN feat. LyuU",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 653,
+        "present": 810,
+        "future": 1094
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.5,
+        "future": 9.4
+      },
+      "id": 201
+    },
+    "虚空の夢": {
+      "title": "虚空の夢",
+      "eng_title": "Solitary Dream",
+      "pack": "Eternal Core",
+      "composer": "ak+q feat. Sennzai",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "8"
+      },
+      "notes": {
+        "past": 712,
+        "present": 854,
+        "future": 972
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 8.8
+      },
+      "id": 202
+    },
+    "彩る夏の恋花火": {
+      "title": "彩る夏の恋花火",
+      "eng_title": "Summer Fireworks of Love",
+      "pack": "Memory Archive",
+      "composer": "karatoPαnchii feat.はるの",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 478,
+        "present": 641,
+        "future": 1088
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.9
+      },
+      "id": 203
+    },
+    "Tie me down gently": {
+      "title": "Tie me down gently",
+      "eng_title": "Tie me down gently",
+      "pack": "Sunset Radiance",
+      "composer": "溝口ゆうま feat. 大瀬良あい",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 581,
+        "present": 535,
+        "future": 724
+      },
+      "const": {
+        "past": 3.0,
+        "present": 5.5,
+        "future": 8.3
+      },
+      "id": 204
+    },
+    "BATTLE NO.1": {
+      "title": "BATTLE NO.1",
+      "eng_title": "BATTLE NO.1",
+      "pack": "Memory Archive",
+      "composer": "TANO*C Sound Team",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 476,
+        "present": 677,
+        "future": 1042
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.7
+      },
+      "id": 205
+    },
+    "Lost Civilization": {
+      "title": "Lost Civilization",
+      "eng_title": "Lost Civilization",
+      "pack": "Arcaea",
+      "composer": "Laur vs CK",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9",
+        "beyond": "9+"
+      },
+      "notes": {
+        "past": 462,
+        "present": 690,
+        "future": 986,
+        "beyond": 1061
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.2,
+        "beyond": 9.8
+      },
+      "id": 206
+    },
+    "dropdead": {
+      "title": "dropdead",
+      "eng_title": "dropdead",
+      "pack": "Memory Archive",
+      "composer": "Frums",
+      "level": {
+        "past": "1",
+        "present": "9",
+        "future": "8"
+      },
+      "notes": {
+        "past": 44,
+        "present": 1323,
+        "future": 823
+      },
+      "const": {
+        "past": 1.5,
+        "present": 9.5,
+        "future": 9.1
+      },
+      "id": 207
+    },
+    "Coastal Highway": {
+      "title": "Coastal Highway",
+      "eng_title": "Coastal Highway",
+      "pack": "Esoteric Order(Pale Tapestry)",
+      "composer": "Glitch Droids",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 355,
+        "present": 479,
+        "future": 732
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 8.6
+      },
+      "id": 208
+    },
+    "CROSS†SOUL": {
+      "title": "CROSS†SOUL",
+      "eng_title": "CROSS†SOUL",
+      "pack": "Memory Archive",
+      "composer": "HyuN feat. Syepias",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 606,
+        "present": 823,
+        "future": 1081
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.4
+      },
+      "id": 209
+    },
+    "Blocked Library": {
+      "title": "Blocked Library",
+      "eng_title": "Blocked Library",
+      "pack": "Divided Heart",
+      "composer": "影虎。",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 449,
+        "present": 622,
+        "future": 850
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.3
+      },
+      "id": 210
+    },
+    "1F√": {
+      "title": "1F√",
+      "eng_title": "1F√",
+      "pack": "World Extend",
+      "composer": "WHITEFISTS",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 411,
+        "present": 539,
+        "future": 758
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.5,
+        "future": 8.2
+      },
+      "id": 211
+    },
+    "Particle Arts": {
+      "title": "Particle Arts",
+      "eng_title": "Particle Arts",
+      "pack": "Adverse Prelude",
+      "composer": "Virtual Self",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 529,
+        "present": 637,
+        "future": 925
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 8.8
+      },
+      "id": 212
+    },
+    "Genesis": {
+      "title": "Genesis",
+      "eng_title": "Genesis",
+      "pack": "Ambivalent Vision",
+      "composer": "Iris",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 275,
+        "present": 399,
+        "future": 713
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.5,
+        "future": 8.2
+      },
+      "id": 213
+    },
+    "Sulfur": {
+      "title": "Sulfur",
+      "eng_title": "Sulfur",
+      "pack": "Luminous Sky",
+      "composer": "ぺのれり",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 458,
+        "present": 608,
+        "future": 1045
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.0,
+        "future": 9.7
+      },
+      "id": 214
+    },
+    "Xanatos": {
+      "title": "Xanatos",
+      "eng_title": "Xanatos",
+      "pack": "Memory Archive",
+      "composer": "Tatsh",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 735,
+        "present": 938,
+        "future": 1232
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.0
+      },
+      "id": 215
+    },
+    "Aegleseeker": {
+      "title": "Aegleseeker",
+      "eng_title": "Aegleseeker",
+      "pack": "Esoteric Order ",
+      "composer": "Silentroom vs Frums",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "11"
+      },
+      "notes": {
+        "past": 973,
+        "present": 1235,
+        "future": 1568
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.8,
+        "future": 11.0
+      },
+      "id": 216
+    },
+    "クロートーと星の観測者": {
+      "title": "クロートーと星の観測者",
+      "eng_title": "Clotho and the stargazer",
+      "pack": "Arcaea",
+      "composer": "しーけー",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "7"
+      },
+      "notes": {
+        "past": 519,
+        "present": 745,
+        "future": 1021
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.0,
+        "future": 7.5
+      },
+      "id": 217
+    },
+    "SOUNDWiTCH": {
+      "title": "SOUNDWiTCH",
+      "eng_title": "SOUNDWiTCH",
+      "pack": "Vicious Labyrinth",
+      "composer": "HATE",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 315,
+        "present": 488,
+        "future": 785
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.9
+      },
+      "id": 218
+    },
+    "堕楽の園": {
+      "title": "堕楽の園",
+      "eng_title": "Illegal Paradise",
+      "pack": "Arcaea",
+      "composer": "gmtn. (witch's slave)",
+      "level": {
+        "past": "2",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 535,
+        "present": 585,
+        "future": 1061
+      },
+      "const": {
+        "past": 2.0,
+        "present": 7.0,
+        "future": 9.6
+      },
+      "id": 219
+    },
+    "Bookmaker (2D Version)": {
+      "title": "Bookmaker (2D Version)",
+      "eng_title": "Bookmaker (2D Version)",
+      "pack": "Arcaea",
+      "composer": "Kobaryo",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "8",
+        "beyond": "10"
+      },
+      "notes": {
+        "past": 538,
+        "present": 728,
+        "future": 1124,
+        "beyond": 1287
+      },
+      "const": {
+        "past": 4.5,
+        "present": 6.5,
+        "future": 8.3,
+        "beyond": 10.0
+      },
+      "id": 220
+    },
+    "白道、多希望羊と信じありく。": {
+      "title": "白道、多希望羊と信じありく。",
+      "eng_title": "LunarOrbit -believe in the Espebranch road-",
+      "pack": "Arcaea",
+      "composer": "Apo11o program ft. 大瀬良あい",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 624,
+        "present": 757,
+        "future": 1058
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 9.6
+      },
+      "id": 221
+    },
+    "Overwhelm": {
+      "title": "Overwhelm",
+      "eng_title": "Overwhelm",
+      "pack": "Esoteric Order(Pale Tapestry)",
+      "composer": "xi",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10"
+      },
+      "notes": {
+        "past": 854,
+        "present": 1038,
+        "future": 1251
+      },
+      "const": {
+        "past": 5.0,
+        "present": 8.5,
+        "future": 10.6
+      },
+      "id": 222
+    },
+    "memoryfactory.lzh": {
+      "title": "memoryfactory.lzh",
+      "eng_title": "memoryfactory.lzh",
+      "pack": "Eternal Core",
+      "composer": "Frums",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 308,
+        "present": 448,
+        "future": 672
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.9
+      },
+      "id": 223
+    },
+    "I've heard it said": {
+      "title": "I've heard it said",
+      "eng_title": "I've heard it said",
+      "pack": "Eternal Core",
+      "composer": "Combatplayer",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 510,
+        "present": 664,
+        "future": 864
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 8.1
+      },
+      "id": 224
+    },
+    "Medusa": {
+      "title": "Medusa",
+      "eng_title": "Medusa",
+      "pack": "Muse Dash Collaboration",
+      "composer": "HiTECH NINJA",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 550,
+        "present": 645,
+        "future": 931
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.0,
+        "future": 10.2
+      },
+      "id": 225
+    },
+    "amygdata": {
+      "title": "amygdata",
+      "eng_title": "amygdata",
+      "pack": "Memory Archive",
+      "composer": "nitro",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 504,
+        "present": 711,
+        "future": 1199
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 9.6
+      },
+      "id": 226
+    },
+    "Dot to Dot feat. shully": {
+      "title": "Dot to Dot feat. shully",
+      "eng_title": "Dot to Dot feat. shully",
+      "pack": "Memory Archive",
+      "composer": "Mameyudoufu",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 453,
+        "present": 522,
+        "future": 739
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 8.3
+      },
+      "id": 227
+    },
+    "Beside You": {
+      "title": "Beside You",
+      "eng_title": "Beside You",
+      "pack": "Ephemeral Page(The Journey Onwards)",
+      "composer": "江口孝宏",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 526,
+        "present": 634,
+        "future": 703
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.0,
+        "future": 8.7
+      },
+      "id": 228
+    },
+    "Antagonism": {
+      "title": "Antagonism",
+      "eng_title": "Antagonism",
+      "pack": "Black Fate",
+      "composer": "Yooh vs. siromaru",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 431,
+        "present": 738,
+        "future": 1142
+      },
+      "const": {
+        "past": 4.5,
+        "present": 7.5,
+        "future": 9.9
+      },
+      "id": 229
+    },
+    "Ringed Genesis": {
+      "title": "Ringed Genesis",
+      "eng_title": "Ringed Genesis",
+      "pack": "Adverse Prelude",
+      "composer": "Edelritter",
+      "level": {
+        "past": "5",
+        "present": "8",
+        "future": "10+"
+      },
+      "notes": {
+        "past": 672,
+        "present": 860,
+        "future": 1146
+      },
+      "const": {
+        "past": 5.5,
+        "present": 8.4,
+        "future": 10.8
+      },
+      "id": 230
+    },
+    "Phantasia": {
+      "title": "Phantasia",
+      "eng_title": "Phantasia",
+      "pack": "Memory Archive",
+      "composer": "Yunosuke",
+      "level": {
+        "past": "4",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 544,
+        "present": 579,
+        "future": 952
+      },
+      "const": {
+        "past": 4.0,
+        "present": 5.5,
+        "future": 9.2
+      },
+      "id": 231
+    },
+    "Paper Witch": {
+      "title": "Paper Witch",
+      "eng_title": "Paper Witch",
+      "pack": "Esoteric Order ",
+      "composer": "Yu-dachi",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 348,
+        "present": 487,
+        "future": 793
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.0,
+        "future": 8.7
+      },
+      "id": 232
+    },
+    "REconstruction": {
+      "title": "REconstruction",
+      "eng_title": "REconstruction",
+      "pack": "Dynamix Collaboration",
+      "composer": "Ryazan",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 347,
+        "present": 469,
+        "future": 825
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.0,
+        "future": 8.4
+      },
+      "id": 233
+    },
+    "Dreadnought": {
+      "title": "Dreadnought",
+      "eng_title": "Dreadnought",
+      "pack": "Memory Archive",
+      "composer": "Mastermind(xi + nora2r)",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 715,
+        "present": 897,
+        "future": 1099
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.8
+      },
+      "id": 234
+    },
+    "Flashback": {
+      "title": "Flashback",
+      "eng_title": "Flashback",
+      "pack": "Crimson Solace",
+      "composer": "ARForest",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 356,
+        "present": 488,
+        "future": 856
+      },
+      "const": {
+        "past": 2.0,
+        "present": 5.0,
+        "future": 8.8
+      },
+      "id": 235
+    },
+    "Anökumene": {
+      "title": "Anökumene",
+      "eng_title": "Anökumene",
+      "pack": "Arcaea",
+      "composer": "Jun Kuroda",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 412,
+        "present": 588,
+        "future": 851
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.5,
+        "future": 9.2
+      },
+      "id": 236
+    },
+    "Lights of Muse": {
+      "title": "Lights of Muse",
+      "eng_title": "Lights of Muse",
+      "pack": "Muse Dash Collaboration",
+      "composer": "Ayatsugu_Otowa",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 333,
+        "present": 438,
+        "future": 580
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.7
+      },
+      "id": 237
+    },
+    "Heavenly caress": {
+      "title": "Heavenly caress",
+      "eng_title": "Heavenly caress",
+      "pack": "Memory Archive",
+      "composer": "Noah",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 855,
+        "present": 909,
+        "future": 1560
+      },
+      "const": {
+        "past": 3.5,
+        "present": 7.5,
+        "future": 9.8
+      },
+      "id": 238
+    },
+    "The Message": {
+      "title": "The Message",
+      "eng_title": "The Message",
+      "pack": "Luminous Sky",
+      "composer": "Jun Kuroda",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 536,
+        "present": 630,
+        "future": 992
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.7
+      },
+      "id": 239
+    },
+    "OMAKENO Stroke": {
+      "title": "OMAKENO Stroke",
+      "eng_title": "OMAKENO Stroke",
+      "pack": "Groove Coaster Collaboration ",
+      "composer": "t+pazolite",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 502,
+        "present": 616,
+        "future": 869
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.5,
+        "future": 9.5
+      },
+      "id": 240
+    },
+    "Life is PIANO": {
+      "title": "Life is PIANO",
+      "eng_title": "Life is PIANO",
+      "pack": "World Extend",
+      "composer": "Junk",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 398,
+        "present": 437,
+        "future": 674
+      },
+      "const": {
+        "past": 3.5,
+        "present": 5.5,
+        "future": 9.1
+      },
+      "id": 241
+    },
+    "AttraqtiA": {
+      "title": "AttraqtiA",
+      "eng_title": "AttraqtiA",
+      "pack": "Memory Archive",
+      "composer": "かめりあ",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 732,
+        "present": 1002,
+        "future": 1433
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.5,
+        "future": 10.4
+      },
+      "id": 242
+    },
+    "cry of viyella": {
+      "title": "cry of viyella",
+      "eng_title": "cry of viyella",
+      "pack": "Eternal Core",
+      "composer": "Laur",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "8"
+      },
+      "notes": {
+        "past": 414,
+        "present": 492,
+        "future": 791
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.0,
+        "future": 8.5
+      },
+      "id": 243
+    },
+    "Glow": {
+      "title": "Glow",
+      "eng_title": "Glow",
+      "pack": "World Extend",
+      "composer": "SPACELECTRO",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 504,
+        "present": 666,
+        "future": 916
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 9.3
+      },
+      "id": 244
+    },
+    "goldenslaughterer": {
+      "title": "goldenslaughterer",
+      "eng_title": "goldenslaughterer",
+      "pack": "Memory Archive",
+      "composer": "zts",
+      "level": {
+        "past": "4",
+        "present": "6",
+        "future": "9+"
+      },
+      "notes": {
+        "past": 864,
+        "present": 880,
+        "future": 1326
+      },
+      "const": {
+        "past": 4.0,
+        "present": 6.5,
+        "future": 9.7
+      },
+      "id": 245
+    },
+    "Purgatorium": {
+      "title": "Purgatorium",
+      "eng_title": "Purgatorium",
+      "pack": "Arcaea",
+      "composer": "お月さま交響曲",
+      "level": {
+        "past": "2",
+        "present": "6",
+        "future": "8",
+        "beyond": "9"
+      },
+      "notes": {
+        "past": 609,
+        "present": 641,
+        "future": 983,
+        "beyond": 1051
+      },
+      "const": {
+        "past": 2.5,
+        "present": 6.0,
+        "future": 8.4,
+        "beyond": 9.6
+      },
+      "id": 246
+    },
+    "Rugie": {
+      "title": "Rugie",
+      "eng_title": "Rugie",
+      "pack": "Arcaea",
+      "composer": "Feryquitous feat.Sennzai",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 566,
+        "present": 754,
+        "future": 975
+      },
+      "const": {
+        "past": 3.0,
+        "present": 6.0,
+        "future": 9.2
+      },
+      "id": 247
+    },
+    "Empire of Winter": {
+      "title": "Empire of Winter",
+      "eng_title": "Empire of Winter",
+      "pack": "Memory Archive",
+      "composer": "Street",
+      "level": {
+        "past": "3",
+        "present": "6",
+        "future": "9"
+      },
+      "notes": {
+        "past": 484,
+        "present": 662,
+        "future": 920
+      },
+      "const": {
+        "past": 3.5,
+        "present": 6.5,
+        "future": 9.0
+      },
+      "id": 248
+    },
+    "Oracle": {
+      "title": "Oracle",
+      "eng_title": "Oracle",
+      "pack": "Dynamix Collaboration",
+      "composer": "TQ☆",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "9"
+      },
+      "notes": {
+        "past": 425,
+        "present": 508,
+        "future": 963
+      },
+      "const": {
+        "past": 3.0,
+        "present": 5.5,
+        "future": 9.3
+      },
+      "id": 249
+    },
+    "DataErr0r": {
+      "title": "DataErr0r",
+      "eng_title": "DataErr0r",
+      "pack": "Memory Archive",
+      "composer": "Cosmograph",
+      "level": {
+        "past": "3",
+        "present": "7",
+        "future": "9"
+      },
+      "notes": {
+        "past": 502,
+        "present": 785,
+        "future": 955
+      },
+      "const": {
+        "past": 3.0,
+        "present": 7.5,
+        "future": 9.5
+      },
+      "id": 250
+    },
+    "First Snow": {
+      "title": "First Snow",
+      "eng_title": "First Snow",
+      "pack": "Divided Heart",
+      "composer": "黒魔",
+      "level": {
+        "past": "2",
+        "present": "4",
+        "future": "7"
+      },
+      "notes": {
+        "past": 366,
+        "present": 442,
+        "future": 578
+      },
+      "const": {
+        "past": 2.5,
+        "present": 4.5,
+        "future": 7.5
+      },
+      "id": 251
+    },
+    "Mirzam": {
+      "title": "Mirzam",
+      "eng_title": "Mirzam",
+      "pack": "Memory Archive",
+      "composer": "Aoi vs. siqlo",
+      "level": {
+        "past": "4",
+        "present": "7",
+        "future": "10"
+      },
+      "notes": {
+        "past": 662,
+        "present": 885,
+        "future": 1303
+      },
+      "const": {
+        "past": 4.0,
+        "present": 7.0,
+        "future": 10.0
+      },
+      "id": 252
+    },
+    "Rabbit In The Black Room": {
+      "title": "Rabbit In The Black Room",
+      "eng_title": "Rabbit In The Black Room",
+      "pack": "Arcaea",
+      "composer": "Rabbit House",
+      "level": {
+        "past": "2",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 373,
+        "present": 467,
+        "future": 772
+      },
+      "const": {
+        "past": 2.5,
+        "present": 5.5,
+        "future": 8.4
+      },
+      "id": 253
+    },
+    "MERLIN": {
+      "title": "MERLIN",
+      "eng_title": "MERLIN",
+      "pack": "Groove Coaster Collaboration ",
+      "composer": "REDALiCE",
+      "level": {
+        "past": "3",
+        "present": "5",
+        "future": "8"
+      },
+      "notes": {
+        "past": 315,
+        "present": 428,
+        "future": 712
+      },
+      "const": {
+        "past": 3.0,
+        "present": 5.5,
+        "future": 8.9
+      },
+      "id": 254
+    }
+  }
+}
