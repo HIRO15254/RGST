@@ -1,13 +1,6 @@
-import SearchFiles from "../search_files";
 import * as fs from "fs";
-
-const DATA_PATH = SearchFiles(/arcaea_data.json$/)[0].dir;
-let ret = JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"));
+import PATHES from "../pathes";
 
 export default function GetArcaeaData(title: string) {
-  return ret["musics"][title];
-}
-
-export function ArcaeaDataUpdate() {
-  ret = JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"));
+  return JSON.parse(fs.readFileSync(`${PATHES.PACKED_DATA_PATH}\\arcaea_data.json`, "utf-8"))["musics"][title];
 }

@@ -1,15 +1,13 @@
-import SearchFiles from "../search_files";
-import SearchDirectries from "../search_directories";
-import { PYMAIN_PATH } from "../python";
 import { exec, execSync } from "child_process";
-import { SETTINGS_PATH } from "../settings";
-import { ArcaeaDataUpdate } from "./get_arcaea_data";
+import PATHES from "../pathes";
 
-const JACKET_DIRECTORY_PATH = SearchDirectries(/arcaea_jacket$/)[0].dir;
-const NUM_DIRECTRY_PATH = SearchDirectries(/arcaea_num$/)[0].dir;
-const DATA_PATH = SearchFiles(/arcaea_data.json$/)[0].dir;
-const RESULT_PATH = SearchFiles(/arcaea_results.json$/)[0].dir;
-const GUIDE_PATH = SearchFiles(/arcaea_init_guide.png$/)[0].dir;
+const JACKET_DIRECTORY_PATH = `${PATHES.PACKED_DATA_PATH}\\arcaea_jacket`;
+const NUM_DIRECTRY_PATH = `${PATHES.PACKED_DATA_PATH}\\arcaea_num`;
+const DATA_PATH = `${PATHES.PACKED_DATA_PATH}\\arcaea_data.json`;
+const GUIDE_PATH = `${PATHES.PACKED_DATA_PATH}\\arcaea_init_guide.png`;
+const PYMAIN_PATH = PATHES.PYMAIN_PATH;
+const SETTINGS_PATH = PATHES.SETTINGS_PATH;
+const RESULTS_PATH = PATHES.ARCAEA_RESULTS_PATH;
 
 export function ArcaeaInit(filepath: string) {
   try {
@@ -21,7 +19,7 @@ export function ArcaeaInit(filepath: string) {
 
 export async function AnalyseArcaeaResult(filepath: string[]) {
   try {
-    execSync(`${PYMAIN_PATH} analyse_arcaea_result -i ${SETTINGS_PATH} ${DATA_PATH} ${JACKET_DIRECTORY_PATH} ${NUM_DIRECTRY_PATH} ${RESULT_PATH} ${filepath.join(" ")}`);
+    execSync(`${PYMAIN_PATH} analyse_arcaea_result -i ${SETTINGS_PATH} ${DATA_PATH} ${JACKET_DIRECTORY_PATH} ${NUM_DIRECTRY_PATH} ${RESULTS_PATH} ${filepath.join(" ")}`);
   } catch (err) {
     console.log(err.toString());
     console.log(`Arcaeaのリザルトを正常に読み込めませんでした。`);
@@ -35,5 +33,4 @@ export async function ArcaeaUpdate() {
   } catch (err) {
     console.log(err.toString());
   }
-  ArcaeaDataUpdate();
 }
