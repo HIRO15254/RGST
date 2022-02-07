@@ -15,10 +15,7 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         { from: 'python/dist/pymain.exe', to: './pymain.exe' },
-        { from: 'rgstsettings.json', to: 'rgstsettings.json' },
-        { from: 'arcaea_results.json', to: 'arcaea_results.json' },
-        { from: 'src/static/img', to: 'static/img' },
-        { from: 'src/static/data', to: 'static/data' }
+        { from: 'src/data', to: 'packed_data' },
       ]
     })
   ],

@@ -1,5 +1,5 @@
 import { dialog } from "electron";
-import { settings, reloadSettings } from "../settings";
+import { getSettings } from "../settings";
 import { AnalyseArcaeaResult, ArcaeaInit } from "./arcaea_python";
 
 export default async function ArcaeaResult() {
@@ -14,15 +14,14 @@ export default async function ArcaeaResult() {
     ],
   });
   if (files.filePaths.length == 0) return;
-  if (!settings.arcaea.initialized) {
+  if (!CheckInitialize()) {
     await dialog.showMessageBox({
       message: "Arcaeaのスクリーンショット解析の初期設定を行います",
       detail: "ガイド画像とあなたのリザルト画像が表示されますので、対応する位置をドラッグで選択してください。\n各ステップで、選択し終わったらエンターキーで決定してください",
       buttons: ["OK"],
     });
     ArcaeaInit(files.filePaths[0]);
-    reloadSettings();
-    if (!settings.arcaea.initialized) {
+    if (!CheckInitialize()) {
       await dialog.showMessageBox({
         message: "キャンセルしました",
         buttons: ["OK"],
@@ -32,4 +31,12 @@ export default async function ArcaeaResult() {
   }
 
   await AnalyseArcaeaResult(files.filePaths);
+}
+
+function CheckInitialize() {
+  try {
+    return getSettings().arcaea.initialized == "true";
+  } catch {
+    return false;
+  }
 }
