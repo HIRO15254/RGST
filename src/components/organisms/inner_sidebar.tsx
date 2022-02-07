@@ -23,7 +23,7 @@ class InnerSidebar extends React.Component<InnerSidebarProps, Record<string, nev
       );
     });
     return (
-      <div className={`flex flex-col w-56 border-r ${Colors.THEME_2.toString("border")}`}>
+      <div className={`flex flex-col w-56 border-r ${Colors.THEME_2.toString("border")} ${Colors.THEME_1.toString("bg")}`}>
         <div className="flex flex-col flex-grow p-4 overflow-auto">{buttons}</div>
       </div>
     );

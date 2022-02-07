@@ -24,7 +24,7 @@ class Header extends React.Component<HeaderProps, Record<string, never>> {
       );
     });
     return (
-      <div className={`flex items-center flex-shrink-0 h-16 px-8 border-b ${Colors.THEME_2.toString("border")}`}>
+      <div className={`flex items-center flex-shrink-0 h-16 px-8 border-b ${Colors.THEME_2.toString("border")} ${Colors.THEME_1.toString("bg")}`}>
         <h1 className="text-lg font-medium">{this.props.title}</h1>
         {buttons}
       </div>
