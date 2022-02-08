@@ -67,6 +67,12 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
           }
         },
       },
+      {
+        label: "リザルト解析の再設定",
+        onClick: function () {
+          api.ArcaeaReInitialize();
+        },
+      },
     ];
     const tableHeader: TableHeaderData = {
       date: { headerType: "text" },
