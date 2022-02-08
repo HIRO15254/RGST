@@ -22,6 +22,9 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
     api.GetArcaeaResult().then((value) => {
       this.setState({ tableData: value });
     });
+    if (localStorage.theme == "dark") {
+      document.documentElement.classList.add("dark");
+    }
   }
 
   uploadResult = async function () {
@@ -48,7 +51,23 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
         },
       },
     ];
-    const headerDropDownButtons: Array<HeaderDropdownData> = [];
+    const headerDropDownButtons: Array<HeaderDropdownData> = [
+      {
+        label: "ダークモード切り替え",
+        onClick: function () {
+          // htmlタグにdarkクラスが含まれているかどうか
+          if (document.documentElement.classList.contains("dark")) {
+            // darkクラスが含まれているならライトモードに変更
+            document.documentElement.classList.remove("dark");
+            localStorage.theme = "light";
+          } else {
+            // darkクラスが含まれていないならダークモードに変更
+            document.documentElement.classList.add("dark");
+            localStorage.theme = "dark";
+          }
+        },
+      },
+    ];
     const tableHeader: TableHeaderData = {
       date: { headerType: "text" },
       title: { headerType: "text", width: 4 },

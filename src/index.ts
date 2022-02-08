@@ -1,6 +1,6 @@
 import { app, BrowserWindow, autoUpdater, dialog, ipcMain } from "electron";
 import ArcaeaResult from "./script/arcaea/arcaea_result";
-import { ArcaeaUpdate } from "./script/arcaea/arcaea_python";
+import { ArcaeaUpdate, ArcaeaInit } from "./script/arcaea/arcaea_python";
 import GetArcaeaResult from "./script/arcaea/get_arcaea_result";
 import init from "./init";
 
