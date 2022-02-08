@@ -21,7 +21,7 @@ class Table extends React.Component<TableProps, Record<string, never>> {
   render() {
     console.log(this.props.datas);
     return (
-      <div className={`container mx-auto px-4 sm:px-8 ${Colors.TEXT_1.toString("text")} ${Colors.THEME_2.toString("border")}`}>
+      <div className={`container mx-auto px-4 sm:px-8 ${Colors.TEXT_2.toString("text")}`}>
         <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
           <div className={`inline-block w-full shadow rounded-lg overflow-hidden ${Colors.THEME_1.toString("bg")}`}>
             <table className="min-w-full leading-normal">

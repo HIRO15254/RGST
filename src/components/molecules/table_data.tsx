@@ -1,4 +1,5 @@
 import React from "react";
+import Colors from "../../static/colors";
 import Pallet from "../../script/UI/pallet";
 
 type TableDataProps = {
@@ -25,7 +26,7 @@ class TableData extends React.Component<TableDataProps, Record<string, never>> {
         </a>
       );
     }
-    return <td className={`px-5 py-2 border-b text-sm ${this.props.color ? this.props.color.toString("text") : ""}`}>{content}</td>;
+    return <td className={`px-5 py-2 border-b text-sm ${this.props.color ? this.props.color.toString("text") : ""} ${Colors.THEME_2.toString("border")}`}>{content}</td>;
   }
 }
 
