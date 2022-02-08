@@ -3,11 +3,13 @@ import Colors from "../../static/colors";
 import Header, { HeaderButtonData } from "../organisms/header";
 import InnerSidebar, { InnerSidebarButtonData } from "../organisms/inner_sidebar";
 import Sidebar, { SidebarButtonData } from "../organisms/sidebar";
-import HomeIcon from "../../static/homeicon";
+import { HomeIcon } from "../../static/icons";
+import { HeaderDropdownData } from "../molecules/header_dropdown";
 
 type PageProps = {
   title: string;
-  headerButtons: Array<HeaderButtonData>;
+  HeaderButtons: Array<HeaderButtonData>;
+  HeaderDropDownButtons: Array<HeaderDropdownData>;
   InnerSidebarButtons: Array<InnerSidebarButtonData>;
 };
 
@@ -27,7 +29,7 @@ class Page extends React.Component<PageProps, Record<string, never>> {
         <Sidebar buttons={sidebarButtons} />
         <InnerSidebar buttons={this.props.InnerSidebarButtons} />
         <div className="flex flex-col flex-grow overflow-y-scroll">
-          <Header title={this.props.title} buttons={this.props.headerButtons} />
+          <Header title={this.props.title} buttons={this.props.HeaderButtons} dropdownitems={this.props.HeaderDropDownButtons} />
           {this.props.children}
         </div>
       </div>

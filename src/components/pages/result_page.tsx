@@ -4,6 +4,7 @@ import { HeaderButtonData } from "../organisms/header";
 import { ContextBridgeApi } from "../../preload/preload";
 import { InnerSidebarButtonData } from "../organisms/inner_sidebar";
 import Table, { TableHeaderData } from "../organisms/table";
+import { HeaderDropdownData } from "../molecules/header_dropdown";
 
 type ResultPageProps = Record<string, never>;
 
@@ -47,6 +48,7 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
         },
       },
     ];
+    const headerDropDownButtons: Array<HeaderDropdownData> = [];
     const tableHeader: TableHeaderData = {
       date: { headerType: "text" },
       title: { headerType: "text", width: 4 },
@@ -55,7 +57,7 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
       edit: { headerType: "link" },
     };
     return (
-      <Page title="Results" headerButtons={headerButtons} InnerSidebarButtons={innerSideButtons}>
+      <Page title="Results" HeaderButtons={headerButtons} InnerSidebarButtons={innerSideButtons} HeaderDropDownButtons={headerDropDownButtons}>
         <Table headers={tableHeader} datas={this.state.tableData}></Table>
       </Page>
     );

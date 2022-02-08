@@ -1,6 +1,7 @@
 import Colors from "../../static/colors";
 import React from "react";
 import HeaderButton from "../molecules/header_button";
+import HeaderDropDown, { HeaderDropdownData } from "../molecules/header_dropdown";
 
 export type HeaderButtonData = {
   id: string;
@@ -12,6 +13,7 @@ type HeaderProps = {
   className?: string;
   title: string;
   buttons: Array<HeaderButtonData>;
+  dropdownitems: Array<HeaderDropdownData>;
 };
 
 class Header extends React.Component<HeaderProps, Record<string, never>> {
@@ -27,6 +29,7 @@ class Header extends React.Component<HeaderProps, Record<string, never>> {
       <div className={`flex items-center flex-shrink-0 h-16 px-8 border-b sticky top-0 z-50 ${Colors.THEME_2.toString("border")} ${Colors.THEME_1.toString("bg")}`}>
         <h1 className="text-lg font-medium">{this.props.title}</h1>
         {buttons}
+        <HeaderDropDown items={this.props.dropdownitems} />
       </div>
     );
   }
