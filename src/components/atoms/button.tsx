@@ -14,7 +14,7 @@ class Button extends React.Component<ButtonProps, Record<string, never>> {
     const hovercolor = this.props.hovercolor;
     const classname = this.props.className;
     return (
-      <a className={`flex items-center rounded h-10 px-2 ${classname ? classname : ""} ${color ? color.toString("bg") : ""} ${hovercolor ? hovercolor.toString("bg", "hover") : ""}`} onClick={this.props.onClick}>
+      <a className={`flex items-center rounded cursor-pointer h-10 px-2 ${classname ? classname : ""} ${color ? color.toString("bg") : ""} ${hovercolor ? hovercolor.toString("bg", "hover") : ""}`} onClick={this.props.onClick}>
         {this.props.children}
       </a>
     );

@@ -12,7 +12,7 @@ export class ContextBridgeApi {
   public ArcaeaReInitialize = async function () {
     await ipcRenderer.invoke("arcaea_reinitialize");
   };
-  public GetArcaeaResult = async function () {
+  public getArcaeaResult = async function () {
     return await ipcRenderer.invoke("get_arcaea_result");
   };
 }

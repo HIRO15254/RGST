@@ -5,11 +5,14 @@ import Pallet from "../../script/UI/pallet";
 type TableDataProps = {
   dataType?: "main" | "text" | "link";
   color?: Pallet;
+  bgColor?: Pallet;
   onClick?: () => void;
 };
 
 class TableData extends React.Component<TableDataProps, Record<string, never>> {
   render() {
+    const color = this.props.color;
+    const bgColor = this.props.bgColor;
     let content: JSX.Element;
     if (this.props.dataType == "text" || this.props.dataType == undefined) {
       content = <p className="whitespace-no-wrap">{this.props.children}</p>;
@@ -21,12 +24,12 @@ class TableData extends React.Component<TableDataProps, Record<string, never>> {
       );
     } else if (this.props.dataType == "link") {
       content = (
-        <a href="#" className="text-indigo-600 hover:text-indigo-900" onClick={this.props.onClick}>
+        <a href="#" onClick={this.props.onClick} className="hover:underline">
           {this.props.children}
         </a>
       );
     }
-    return <td className={`px-5 py-2 border-b text-sm ${this.props.color ? this.props.color.toString("text") : ""} ${Colors.THEME_2.toString("border")}`}>{content}</td>;
+    return <td className={`px-5 py-2 border-b text-sm ${color ? color.toString("text") : ""} ${bgColor ? bgColor.toString("bg") : ""} ${Colors.THEME_2.toString("border")}`}>{content}</td>;
   }
 }
 
