@@ -3,23 +3,33 @@ import Colors from "../../static/colors";
 import TableData from "../molecules/table_data";
 import TableHeader from "../molecules/table_header";
 import TableRow from "../molecules/table_row";
+import Pallet from "../../script/UI/pallet";
 
 export type TableHeaderData = {
   [key: string]: {
     headerType: "main" | "text" | "link";
     width?: number;
+  };
+};
+
+export type TableDataData = {
+  [key: string]: {
+    text: string;
+    color?: Pallet;
+    bgColor?: Pallet;
     onClick?: () => void;
   };
 };
 
 type TableProps = {
   headers: TableHeaderData;
-  datas: { [key: string]: string }[];
+  datas: Array<TableDataData>;
 };
 
 class Table extends React.Component<TableProps, Record<string, never>> {
   render() {
-    console.log(this.props.datas);
+    const headers = this.props.headers;
+    const datas = this.props.datas;
     return (
       <div className={`container mx-auto px-4 sm:px-8 ${Colors.TEXT_2.toString("text")}`}>
         <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
@@ -27,19 +37,19 @@ class Table extends React.Component<TableProps, Record<string, never>> {
             <table className="min-w-full leading-normal">
               <thead>
                 <tr>
-                  {Object.keys(this.props.headers).map((header, index) => (
-                    <TableHeader key={index} width={this.props.headers[header].width}>
+                  {Object.keys(headers).map((header, index) => (
+                    <TableHeader key={index} width={headers[header].width}>
                       {header}
                     </TableHeader>
                   ))}
                 </tr>
               </thead>
               <tbody>
-                {this.props.datas.map((data, index) => (
+                {datas.map((data, index) => (
                   <TableRow key={index}>
-                    {Object.keys(this.props.headers).map((header, index) => (
-                      <TableData key={index} dataType={this.props.headers[header].headerType} onClick={this.props.headers[header].onClick}>
-                        {data[header] != undefined ? data[header] : header}
+                    {Object.keys(headers).map((header, index) => (
+                      <TableData key={index} dataType={headers[header].headerType} onClick={data[header].onClick} color={data[header].color} bgColor={data[header].bgColor}>
+                        {data[header].text}
                       </TableData>
                     ))}
                   </TableRow>
