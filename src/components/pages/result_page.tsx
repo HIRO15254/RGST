@@ -4,8 +4,9 @@ import { HeaderButtonData } from "../organisms/header";
 import { ContextBridgeApi } from "../../preload/preload";
 import { InnerSidebarButtonData } from "../organisms/inner_sidebar";
 import Table, { TableHeaderData, TableDataData } from "../organisms/table";
-import { HeaderDropdownData } from "../molecules/header_dropdown";
+import { HeaderDropdownItemData } from "../molecules/header_dropdown";
 import Colors from "../../static/colors";
+import { ArcaeaResultType } from "../../script/arcaea/arcaea_result";
 
 type ResultPageProps = Record<string, never>;
 
@@ -18,35 +19,29 @@ const api: ContextBridgeApi = window.api;
 class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
   constructor(props: ResultPageProps) {
     super(props);
-    this.uploadResult = this.uploadResult.bind(this);
-    this.switchTheme = this.switchTheme.bind(this);
     this.state = { tableData: [] };
     if (localStorage.theme == "dark") {
       document.documentElement.classList.add("dark");
     }
-    api.getArcaeaResult().then((value) => {
-      this.setState({ tableData: this.convertData(value) });
-    });
+    this.reloadResult();
   }
 
   render() {
     const headerButtons: Array<HeaderButtonData> = [
       {
-        id: "upload",
         label: "upload",
         onClick: this.uploadResult,
       },
     ];
     const innerSideButtons: Array<InnerSidebarButtonData> = [
       {
-        id: "arcaea",
         label: "arcaea",
         onClick: function () {
-          console.log("");
+          return;
         },
       },
     ];
-    const headerDropDownButtons: Array<HeaderDropdownData> = [
+    const headerDropDownButtons: Array<HeaderDropdownItemData> = [
       {
         label: "ダークモード切り替え",
         onClick: this.switchTheme,
@@ -54,7 +49,7 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
       {
         label: "リザルト解析の再設定",
         onClick: function () {
-          api.ArcaeaReInitialize();
+          api.reinitializeArcaeaSettings();
         },
       },
     ];
@@ -67,33 +62,36 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
       delete: { headerType: "link" },
     };
     return (
-      <Page title="Results" HeaderButtons={headerButtons} InnerSidebarButtons={innerSideButtons} HeaderDropDownButtons={headerDropDownButtons}>
+      <Page title="Results" headerButtons={headerButtons} innerSidebarButtons={innerSideButtons} headerDropdownItems={headerDropDownButtons}>
         <Table headers={tableHeader} datas={this.state.tableData}></Table>
       </Page>
     );
   }
 
-  convertData = function (data: Array<{ [key: string]: string }>): Array<TableDataData> {
-    return data.map((data) => {
+  convertData = (data: Array<ArcaeaResultType>): Array<TableDataData> => {
+    return data.map((datum) => {
       return {
-        date: { text: data.date },
-        title: { text: data.title },
-        diff: { text: data.diff },
-        score: { text: data.score },
+        date: { text: datum.date },
+        title: { text: datum.title },
+        diff: { text: datum.diff },
+        score: { text: datum.score.toString() },
         edit: { text: "edit", color: Colors.LINK_NOAMAL },
         delete: { text: "delete", color: Colors.WARN_NOAMAL },
       };
     });
   };
 
-  uploadResult = async function () {
-    await api.sendArcaeaResult();
+  uploadResult = async () => {
+    await api.uploadArcaeaResult();
+  };
+
+  reloadResult = () => {
     api.getArcaeaResult().then((value) => {
-      this.setState({ tableData: value });
+      this.setState({ tableData: this.convertData(value) });
     });
   };
 
-  switchTheme = function () {
+  switchTheme = () => {
     // htmlタグにdarkクラスが含まれているかどうか
     if (document.documentElement.classList.contains("dark")) {
       // darkクラスが含まれているならライトモードに変更

@@ -6,11 +6,11 @@ export class ContextBridgeApi {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
 
-  public sendArcaeaResult = async function () {
-    await ipcRenderer.invoke("arcaea_result");
+  public uploadArcaeaResult = async function () {
+    await ipcRenderer.invoke("upload_arcaea_result");
   };
-  public ArcaeaReInitialize = async function () {
-    await ipcRenderer.invoke("arcaea_reinitialize");
+  public reinitializeArcaeaSettings = async function () {
+    await ipcRenderer.invoke("reinitialize_arcaea_settings");
   };
   public getArcaeaResult = async function () {
     return await ipcRenderer.invoke("get_arcaea_result");

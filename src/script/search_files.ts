@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 
-function SearchFiles(query: RegExp | string, dirPath?: string): Array<{ dir: string; name: string }> {
+function searchFiles(query: RegExp | string, dirPath?: string): Array<{ dir: string; name: string }> {
   if (typeof query == "string") {
     query = RegExp(query);
   }
@@ -14,7 +14,7 @@ function SearchFiles(query: RegExp | string, dirPath?: string): Array<{ dir: str
   for (const dirent of allDirents) {
     if (dirent.isDirectory()) {
       const fp = path.join(dirPath, dirent.name);
-      files.push(SearchFiles(query, fp));
+      files.push(searchFiles(query, fp));
     } else if (dirent.isFile() && query.test(dirent.name)) {
       files.push({
         dir: path.resolve(path.join(dirPath, dirent.name)),
@@ -25,4 +25,4 @@ function SearchFiles(query: RegExp | string, dirPath?: string): Array<{ dir: str
   return files.flat();
 }
 
-export default SearchFiles;
+export default searchFiles;
