@@ -24,7 +24,7 @@ class TableData extends React.Component<TableDataProps, Record<string, never>> {
       );
     } else if (this.props.dataType == "link") {
       content = (
-        <a href="#" onClick={this.props.onClick} className="hover:underline">
+        <a onClick={this.props.onClick} className="hover:underline cursor-pointer">
           {this.props.children}
         </a>
       );

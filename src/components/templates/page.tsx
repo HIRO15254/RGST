@@ -3,22 +3,25 @@ import Colors from "../../static/colors";
 import Header, { HeaderButtonData } from "../organisms/header";
 import InnerSidebar, { InnerSidebarButtonData } from "../organisms/inner_sidebar";
 import Sidebar, { SidebarButtonData } from "../organisms/sidebar";
-import { HomeIcon } from "../../static/icons";
-import { HeaderDropdownData } from "../molecules/header_dropdown";
+import { HeaderDropdownItemData } from "../molecules/header_dropdown";
+import Icons from "../../static/icons";
 
 type PageProps = {
   title: string;
-  HeaderButtons: Array<HeaderButtonData>;
-  HeaderDropDownButtons: Array<HeaderDropdownData>;
-  InnerSidebarButtons: Array<InnerSidebarButtonData>;
+  headerButtons: Array<HeaderButtonData>;
+  headerDropdownItems: Array<HeaderDropdownItemData>;
+  innerSidebarButtons: Array<InnerSidebarButtonData>;
 };
 
 class Page extends React.Component<PageProps, Record<string, never>> {
   render() {
+    const title = this.props.title;
+    const headerButtons = this.props.headerButtons;
+    const headerDropdownItems = this.props.headerDropdownItems;
+    const InnerSidebarButtons = this.props.innerSidebarButtons;
     const sidebarButtons: Array<SidebarButtonData> = [
       {
-        id: "home",
-        path: HomeIcon,
+        path: Icons.HOME,
         onClick: function () {
           console.log("ホームボタンが押されました");
         },
@@ -27,9 +30,9 @@ class Page extends React.Component<PageProps, Record<string, never>> {
     return (
       <div className={`flex w-screen h-screen ${Colors.THEME_2.toString("bg")} ${Colors.TEXT_2.toString("text")}`}>
         <Sidebar buttons={sidebarButtons} />
-        <InnerSidebar buttons={this.props.InnerSidebarButtons} />
+        <InnerSidebar buttons={InnerSidebarButtons} />
         <div className="flex flex-col flex-grow overflow-y-scroll">
-          <Header title={this.props.title} buttons={this.props.HeaderButtons} dropdownitems={this.props.HeaderDropDownButtons} />
+          <Header title={title} buttons={headerButtons} dropdownItems={headerDropdownItems} />
           {this.props.children}
         </div>
       </div>

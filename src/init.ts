@@ -1,6 +1,6 @@
-import PATHES from "./script/pathes";
+import PATHES from "./script/paths";
 import * as fs from "fs";
-import { ArcaeaUpdate } from "./script/arcaea/arcaea_python";
+import { updateArcaeaData } from "./script/arcaea/arcaea_python";
 
 export default function init() {
   if (!fs.existsSync(PATHES.SETTINGS_PATH)) {
@@ -9,5 +9,5 @@ export default function init() {
   if (!fs.existsSync(PATHES.ARCAEA_RESULTS_PATH)) {
     fs.writeFileSync(PATHES.ARCAEA_RESULTS_PATH, "{}");
   }
-  ArcaeaUpdate();
+  updateArcaeaData();
 }

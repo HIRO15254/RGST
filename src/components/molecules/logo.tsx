@@ -9,9 +9,10 @@ type LogoProps = {
 
 class Logo extends React.Component<LogoProps, Record<string, never>> {
   render() {
+    const path = this.props.path;
     return (
       <Button className={`justify-center flex-shrink-0 w-full h-16 mt-4`}>
-        <Svg className={`h-10 w-10`} color={Colors.TEXT_2} path={this.props.path} />
+        <Svg className={`h-10 w-10`} color={Colors.TEXT_2} path={path} />
       </Button>
     );
   }
