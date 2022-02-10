@@ -17,7 +17,7 @@ export type TableDataData = {
     text: string;
     color?: Pallet;
     bgColor?: Pallet;
-    onClick?: () => void;
+    onClick?: (index?: number) => void;
   };
 };
 
@@ -47,8 +47,8 @@ class Table extends React.Component<TableProps, Record<string, never>> {
               <tbody>
                 {datas.map((data, index) => (
                   <TableRow key={index}>
-                    {Object.keys(headers).map((header, index) => (
-                      <TableData key={index} dataType={headers[header].headerType} onClick={data[header].onClick} color={data[header].color} bgColor={data[header].bgColor}>
+                    {Object.keys(headers).map((header, index_2) => (
+                      <TableData key={index_2} index={index} dataType={headers[header].headerType} onClick={data[header].onClick} color={data[header].color} bgColor={data[header].bgColor}>
                         {data[header].text}
                       </TableData>
                     ))}

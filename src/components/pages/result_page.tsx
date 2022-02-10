@@ -11,7 +11,7 @@ import { ArcaeaResultType } from "../../script/arcaea/arcaea_result";
 type ResultPageProps = Record<string, never>;
 
 type ResultPageStates = {
-  tableData: TableDataData[];
+  results: ArcaeaResultType[];
 };
 
 const api: ContextBridgeApi = window.api;
@@ -19,7 +19,7 @@ const api: ContextBridgeApi = window.api;
 class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
   constructor(props: ResultPageProps) {
     super(props);
-    this.state = { tableData: [] };
+    this.state = { results: [] };
     if (localStorage.theme == "dark") {
       document.documentElement.classList.add("dark");
     }
@@ -63,7 +63,7 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
     };
     return (
       <Page title="Results" headerButtons={headerButtons} innerSidebarButtons={innerSideButtons} headerDropdownItems={headerDropDownButtons}>
-        <Table headers={tableHeader} datas={this.state.tableData}></Table>
+        <Table headers={tableHeader} datas={this.convertData(this.state.results)}></Table>
       </Page>
     );
   }
@@ -76,18 +76,19 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
         diff: { text: datum.diff },
         score: { text: datum.score.toString() },
         edit: { text: "edit", color: Colors.LINK_NOAMAL },
-        delete: { text: "delete", color: Colors.WARN_NOAMAL },
+        delete: { text: "delete", color: Colors.WARN_NOAMAL, onClick: this.deleteResult },
       };
     });
   };
 
   uploadResult = async () => {
     await api.uploadArcaeaResult();
+    this.reloadResult();
   };
 
   reloadResult = () => {
     api.getArcaeaResult().then((value) => {
-      this.setState({ tableData: this.convertData(value) });
+      this.setState({ results: value });
     });
   };
 
@@ -102,6 +103,13 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
       document.documentElement.classList.add("dark");
       localStorage.theme = "dark";
     }
+  };
+
+  deleteResult = async (index: number) => {
+    const _results = this.state.results;
+    _results.splice(index, 1);
+    await api.setArcaeaResult(_results);
+    this.reloadResult();
   };
 }
 

@@ -1,6 +1,6 @@
 import { app, BrowserWindow, autoUpdater, dialog, ipcMain } from "electron";
 import uploadArcaeaResult from "./script/arcaea/upload_arcaea_result";
-import { getArcaeaResult } from "./script/arcaea/arcaea_result";
+import { getArcaeaResult, setArcaeaResult } from "./script/arcaea/arcaea_result";
 import reinitializeArcaeaSettings from "./script/arcaea/reinitialize_arcaea_settings";
 import init from "./init";
 
@@ -109,3 +109,4 @@ if (app.isPackaged) {
 ipcMain.handle("upload_arcaea_result", uploadArcaeaResult);
 ipcMain.handle("get_arcaea_result", getArcaeaResult);
 ipcMain.handle("reinitialize_arcaea_settings", reinitializeArcaeaSettings);
+ipcMain.handle("set_arcaea_result", (_, results) => setArcaeaResult(results));
