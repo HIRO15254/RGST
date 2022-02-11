@@ -8,6 +8,7 @@ import { HeaderDropdownItemData } from "../molecules/header_dropdown";
 import Colors from "../../static/colors";
 import { ArcaeaResultType } from "../../script/arcaea/arcaea_result";
 import { ArcaeaDataType } from "../../script/arcaea/arcaea_data";
+import { scoreToRate } from "../../script/arcaea/arcaea_calc";
 
 type ResultPageProps = Record<string, never>;
 
@@ -76,6 +77,7 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
       diff: { width: 1 },
       score: { width: 1 },
       level: { width: 1 },
+      rate: { width: 1 },
       edit: { dataType: "link", width: 1 },
       delete: { dataType: "link", width: 1 },
     };
@@ -95,7 +97,8 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
             title: { text: this.state.editingTitle, dataType: "dropdown", dropdownItem: this.titles(), onChange: this.onChangeTitle },
             diff: { text: this.state.editingDiff, dataType: "dropdown", dropdownItem: this.diffs(this.state.editingTitle), onChange: this.onChangeDiff },
             score: { text: this.state.editingScore, dataType: "input", inputType: "number", onChange: this.onChangeScore },
-            level: { text: this.level(this.state.editingTitle, this.state.editingDiff) },
+            level: { text: this.getLevel(this.state.editingTitle, this.state.editingDiff) },
+            rate: { text: this.getRating(this.state.editingTitle, this.state.editingDiff, parseInt(this.state.editingScore)).toString().slice(0, 6) },
             edit: { text: "update", color: Colors.LINK_NOAMAL, onClick: this.endEdit },
             delete: { text: "cancel", color: Colors.WARN_NOAMAL, onClick: this.cancelEdit },
           };
@@ -105,7 +108,8 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
             title: { text: datum.title },
             diff: { text: datum.diff },
             score: { text: datum.score.toString() },
-            level: { text: this.level(datum.title, datum.diff) },
+            level: { text: this.getLevel(datum.title, datum.diff) },
+            rate: { text: this.getRating(datum.title, datum.diff, datum.score).toString().slice(0, 6) },
             edit: { text: "", dataType: "text", color: Colors.TEXT_2 },
             delete: { text: "", dataType: "text", color: Colors.TEXT_2 },
           };
@@ -116,7 +120,8 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
           title: { text: datum.title },
           diff: { text: datum.diff },
           score: { text: datum.score.toString() },
-          level: { text: this.level(datum.title, datum.diff) },
+          level: { text: this.getLevel(datum.title, datum.diff) },
+          rate: { text: this.getRating(datum.title, datum.diff, datum.score).toString().slice(0, 6) },
           edit: { text: "edit", color: Colors.LINK_NOAMAL, onClick: this.startEdit },
           delete: { text: "delete", color: Colors.WARN_NOAMAL, onClick: this.deleteResult },
         };
@@ -183,10 +188,18 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
     return ["past", "present", "future", "beyond"].slice(0, song.const.beyond ? 4 : 3);
   };
 
-  level = (title: string, diff: string) => {
+  getLevel = (title: string, diff: string) => {
+    const _diff = diff as "past" | "present" | "future" | "beyond";
     const song = this.state.songData.find((data) => data.title == title);
     if (!song) return "";
-    return `${song.level[diff as "past" | "present" | "future" | "beyond"]} (${song.const[diff as "past" | "present" | "future" | "beyond"]})`;
+    return `${song.level[_diff]} (${song.const[_diff]})`;
+  };
+
+  getRating = (title: string, diff: string, score: number) => {
+    const _diff = diff as "past" | "present" | "future" | "beyond";
+    const song = this.state.songData.find((data) => data.title == title);
+    if (!song) return 0;
+    return scoreToRate(song.const[_diff], score);
   };
 
   dateToInputval = (date: string) => {
