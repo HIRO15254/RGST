@@ -205,7 +205,7 @@ def analyse_arcaea_result(settings_path: str, data_path: str, jackets_path: str,
                 if image.shape[1] != settings["arcaea"]["size"]["width"] or image.shape[0] != settings["arcaea"]["size"]["height"]:
                     raise
                 result_data.append({
-                    "date": datetime.fromtimestamp(pathlib.Path(image_path).stat().st_ctime).strftime('%Y-%m-%d %H:%M:%S'),
+                    "date": datetime.fromtimestamp(pathlib.Path(image_path).stat().st_mtime).strftime('%Y-%m-%d %H:%M:%S'),
                     "filepath": image_path,
                     "title": checkJacket(getarea(image, "jacket")),
                     "diff": checkDiff(getarea(image, "level")),
