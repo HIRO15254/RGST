@@ -20,5 +20,5 @@ export function getArcaeaResult() {
 }
 
 export function setArcaeaResult(results: Array<ArcaeaResultType>) {
-  _results = results;
+  fs.writeFileSync(Paths.ARCAEA_RESULTS_PATH, JSON.stringify(results));
 }
