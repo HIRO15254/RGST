@@ -88,16 +88,28 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
 
   convertData = (data: Array<ArcaeaResultType>): Array<TableDataData> => {
     return data.map((datum, index) => {
-      if (this.state.edit == index) {
-        return {
-          date: { text: this.state.editingDate, dataType: "input", inputType: "datetime-local", onChange: this.onChangeDate },
-          title: { text: this.state.editingTitle, dataType: "dropdown", dropdownItem: this.titles(), onChange: this.onChangeTitle },
-          diff: { text: this.state.editingDiff, dataType: "dropdown", dropdownItem: this.diffs(this.state.editingTitle), onChange: this.onChangeDiff },
-          score: { text: this.state.editingScore, dataType: "input", inputType: "number", onChange: this.onChangeScore },
-          level: { text: this.level(this.state.editingTitle, this.state.editingDiff) },
-          edit: { text: "update", color: Colors.LINK_NOAMAL, onClick: this.endEdit },
-          delete: { text: "delete", color: Colors.WARN_NOAMAL, onClick: this.deleteResult },
-        };
+      if (this.state.edit != -1) {
+        if (this.state.edit == index) {
+          return {
+            date: { text: this.state.editingDate, dataType: "input", inputType: "datetime-local", onChange: this.onChangeDate },
+            title: { text: this.state.editingTitle, dataType: "dropdown", dropdownItem: this.titles(), onChange: this.onChangeTitle },
+            diff: { text: this.state.editingDiff, dataType: "dropdown", dropdownItem: this.diffs(this.state.editingTitle), onChange: this.onChangeDiff },
+            score: { text: this.state.editingScore, dataType: "input", inputType: "number", onChange: this.onChangeScore },
+            level: { text: this.level(this.state.editingTitle, this.state.editingDiff) },
+            edit: { text: "update", color: Colors.LINK_NOAMAL, onClick: this.endEdit },
+            delete: { text: "cancel", color: Colors.WARN_NOAMAL, onClick: this.cancelEdit },
+          };
+        } else {
+          return {
+            date: { text: datum.date.slice(0, datum.date.length - 3) },
+            title: { text: datum.title },
+            diff: { text: datum.diff },
+            score: { text: datum.score.toString() },
+            level: { text: this.level(datum.title, datum.diff) },
+            edit: { text: "", dataType: "text", color: Colors.TEXT_2 },
+            delete: { text: "", dataType: "text", color: Colors.TEXT_2 },
+          };
+        }
       } else {
         return {
           date: { text: datum.date.slice(0, datum.date.length - 3) },
@@ -118,7 +130,17 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
   };
 
   reloadResult = () => {
-    api.getArcaeaResult().then((value) => {
+    api.getArcaeaResult().then((value: Array<ArcaeaResultType>) => {
+      value.sort((a, b) => {
+        if (a.date > b.date) {
+          return 1;
+        }
+        if (a.date < b.date) {
+          return -1;
+        }
+        return 0;
+      });
+      value.reverse();
       this.setState({ results: value });
     });
   };
@@ -187,39 +209,35 @@ class ResultPage extends React.Component<ResultPageProps, ResultPageStates> {
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   endEdit = (_: number) => {
+    const _results = this.state.results;
+    _results[this.state.edit].date = this.inputvalTodate(this.state.editingDate);
+    _results[this.state.edit].title = this.state.editingTitle;
+    _results[this.state.edit].diff = this.state.editingDiff as "past" | "present" | "future" | "beyond";
+    _results[this.state.edit].score = parseInt(this.state.editingScore);
+    api.setArcaeaResult(_results);
+    this.reloadResult();
+    this.setState({ edit: -1 });
+  };
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  cancelEdit = (_: number) => {
     this.setState({ edit: -1 });
   };
 
   onChangeDate = (e: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ editingDate: e.target.value });
-    const _results = this.state.results;
-    _results[this.state.edit].date = this.inputvalTodate(e.target.value);
-    api.setArcaeaResult(_results);
-    this.reloadResult();
   };
 
   onChangeTitle = (e: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({ editingTitle: e.target.value });
-    const _results = this.state.results;
-    _results[this.state.edit].title = e.target.value;
-    api.setArcaeaResult(_results);
-    this.reloadResult();
   };
 
   onChangeDiff = (e: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({ editingDiff: e.target.value });
-    const _results = this.state.results;
-    _results[this.state.edit].diff = e.target.value as "past" | "present" | "future" | "beyond";
-    api.setArcaeaResult(_results);
-    this.reloadResult();
   };
 
   onChangeScore = (e: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ editingScore: e.target.value });
-    const _results = this.state.results;
-    _results[this.state.edit].score = parseInt(e.target.value);
-    api.setArcaeaResult(_results);
-    this.reloadResult();
   };
 }
 
