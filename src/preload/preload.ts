@@ -19,6 +19,9 @@ export class ContextBridgeApi {
   public setArcaeaResult = async function (results: Array<ArcaeaResultType>) {
     await ipcRenderer.invoke("set_arcaea_result", results);
   };
+  public getArcaeaData = async function () {
+    return await ipcRenderer.invoke("get_arcaea_data");
+  };
 }
 
 contextBridge.exposeInMainWorld(ContextBridgeApi.API_KEY, new ContextBridgeApi());
