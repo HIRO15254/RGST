@@ -196,20 +196,24 @@ def analyse_arcaea_result(settings_path: str, data_path: str, jackets_path: str,
 
     result_data = json_funks.get(result_path)
     for image_path in image_paths:
-        try:
-            image: numpy.ndarray = cv2.imread(image_path)
-            if image.shape[1] != settings["arcaea"]["size"]["width"] or image.shape[0] != settings["arcaea"]["size"]["height"]:
-                raise
-            result_data.append({
-                "date": datetime.fromtimestamp(pathlib.Path(image_path).stat().st_ctime).strftime('%Y-%m-%d %H:%M:%S'),
-                "filepath": image_path,
-                "title": checkJacket(getarea(image, "jacket")),
-                "diff": checkDiff(getarea(image, "level")),
-                "score": checkScore(getarea(image, "score")),
-                "pure": checkJudge(getarea(image, "pure")),
-                "far": checkJudge(getarea(image, "far")),
-                "lost": checkJudge(getarea(image, "lost"))
-            })
-        except Exception as e:
-            print(e)
+        for result in result_data:
+            if result["filepath"] == image_path:
+                break
+        else:
+            try:
+                image: numpy.ndarray = cv2.imread(image_path)
+                if image.shape[1] != settings["arcaea"]["size"]["width"] or image.shape[0] != settings["arcaea"]["size"]["height"]:
+                    raise
+                result_data.append({
+                    "date": datetime.fromtimestamp(pathlib.Path(image_path).stat().st_ctime).strftime('%Y-%m-%d %H:%M:%S'),
+                    "filepath": image_path,
+                    "title": checkJacket(getarea(image, "jacket")),
+                    "diff": checkDiff(getarea(image, "level")),
+                    "score": checkScore(getarea(image, "score")),
+                    "pure": checkJudge(getarea(image, "pure")),
+                    "far": checkJudge(getarea(image, "far")),
+                    "lost": checkJudge(getarea(image, "lost"))
+                })
+            except Exception as e:
+                print(e)
     json_funks.set(result_path, result_data)
